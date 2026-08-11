@@ -56,6 +56,20 @@
         },
         "orden_del_dia_detalle": null,
         "sancion_detalle": null
+      },
+      "timeline": {
+        "camara_origen": "Senado",
+        "camara_revisora": "Diputados",
+        "origen_hitos": {
+          "ingreso": "01/06/2026",
+          "dictamen": null,
+          "sancion": null
+        },
+        "revisora_hitos": {
+          "ingreso": null,
+          "dictamen": null,
+          "sancion": null
+        }
       }
     },
     {
@@ -101,6 +115,20 @@
         "reunion_comision": null,
         "orden_del_dia_detalle": null,
         "sancion_detalle": null
+      },
+      "timeline": {
+        "camara_origen": "Senado",
+        "camara_revisora": "Diputados",
+        "origen_hitos": {
+          "ingreso": "26/05/2026",
+          "dictamen": null,
+          "sancion": null
+        },
+        "revisora_hitos": {
+          "ingreso": null,
+          "dictamen": null,
+          "sancion": null
+        }
       }
     },
     {
@@ -137,7 +165,21 @@
         "orden_del_dia": null,
         "sancion_fecha": null
       },
-      "nota": null
+      "nota": null,
+      "timeline": {
+        "camara_origen": "Senado",
+        "camara_revisora": "Diputados",
+        "origen_hitos": {
+          "ingreso": "26/05/2026",
+          "dictamen": null,
+          "sancion": null
+        },
+        "revisora_hitos": {
+          "ingreso": null,
+          "dictamen": null,
+          "sancion": null
+        }
+      }
     },
     {
       "expediente": "PE-102/26",
@@ -187,6 +229,20 @@
         },
         "orden_del_dia_detalle": null,
         "sancion_detalle": null
+      },
+      "timeline": {
+        "camara_origen": "Senado",
+        "camara_revisora": "Diputados",
+        "origen_hitos": {
+          "ingreso": "22/04/2026",
+          "dictamen": null,
+          "sancion": null
+        },
+        "revisora_hitos": {
+          "ingreso": null,
+          "dictamen": null,
+          "sancion": null
+        }
       }
     },
     {
@@ -235,6 +291,20 @@
         "reunion_comision": null,
         "orden_del_dia_detalle": null,
         "sancion_detalle": null
+      },
+      "timeline": {
+        "camara_origen": "Senado",
+        "camara_revisora": "Diputados",
+        "origen_hitos": {
+          "ingreso": "20/04/2026",
+          "dictamen": null,
+          "sancion": null
+        },
+        "revisora_hitos": {
+          "ingreso": null,
+          "dictamen": null,
+          "sancion": null
+        }
       }
     },
     {
@@ -294,6 +364,20 @@
         },
         "orden_del_dia_detalle": null,
         "sancion_detalle": null
+      },
+      "timeline": {
+        "camara_origen": "Senado",
+        "camara_revisora": "Diputados",
+        "origen_hitos": {
+          "ingreso": "20/04/2026",
+          "dictamen": null,
+          "sancion": null
+        },
+        "revisora_hitos": {
+          "ingreso": null,
+          "dictamen": null,
+          "sancion": null
+        }
       }
     },
     {
@@ -374,6 +458,20 @@
             "Oposición (Voto Negativo - 33 votos): Denuncian que el proyecto es un \"estatuto de coloniaje del siglo XXI\" para desmantelar la soberanía energética, ambiental y territorial. Advierten que la reforma de expropiaciones encarece deliberadamente y blinda de manera \"corporativa\" las empresas y activos públicos privatizados frente a intentos de recuperación estatal futura. Asimismo, señalan que el desalojo exprés condena a la calle a inquilinos vulnerables asfixiados por la crisis, y que modificar la Ley de Manejo del Fuego quita los frenos preventivos contra incendios especulativos destinados a emprendimientos inmobiliarios."
           ],
           "camara": "Senado"
+        }
+      },
+      "timeline": {
+        "camara_origen": "Senado",
+        "camara_revisora": "Diputados",
+        "origen_hitos": {
+          "ingreso": "27/03/2026",
+          "dictamen": "20/05/2026",
+          "sancion": "07/08/2026"
+        },
+        "revisora_hitos": {
+          "ingreso": null,
+          "dictamen": null,
+          "sancion": null
         }
       }
     },
@@ -456,6 +554,20 @@
           ],
           "camara": "Diputados"
         }
+      },
+      "timeline": {
+        "camara_origen": "Diputados",
+        "camara_revisora": "Senado",
+        "origen_hitos": {
+          "ingreso": null,
+          "dictamen": null,
+          "sancion": null
+        },
+        "revisora_hitos": {
+          "ingreso": "26/06/2026",
+          "dictamen": null,
+          "sancion": null
+        }
       }
     },
     {
@@ -534,6 +646,20 @@
             "Bloque Hacemos Coalición Federal y PJ de Córdoba: Alertaron sobre la regresividad del sistema SEF al castigar a los adultos mayores con barreras digitales de inscripción. Criticaron la profunda asimetría centralista de la ley (Artículo 4), que regulariza y perdona deudas a empresas privadas incumplidoras del AMBA pero no prevé herramientas de créditos automáticos ni premios reales de inversión para las cooperativas y distribuidoras provinciales cumplidoras del interior del país (como EPEC en Córdoba)."
           ],
           "camara": "Diputados"
+        }
+      },
+      "timeline": {
+        "camara_origen": "Diputados",
+        "camara_revisora": "Senado",
+        "origen_hitos": {
+          "ingreso": null,
+          "dictamen": null,
+          "sancion": null
+        },
+        "revisora_hitos": {
+          "ingreso": "21/05/2026",
+          "dictamen": null,
+          "sancion": null
         }
       }
     },
@@ -626,6 +752,20 @@
           ],
           "camara": "Diputados"
         }
+      },
+      "timeline": {
+        "camara_origen": "Diputados",
+        "camara_revisora": "Senado",
+        "origen_hitos": {
+          "ingreso": null,
+          "dictamen": null,
+          "sancion": null
+        },
+        "revisora_hitos": {
+          "ingreso": "21/05/2026",
+          "dictamen": "17/06/2026",
+          "sancion": null
+        }
       }
     },
     {
@@ -645,6 +785,20 @@
         "fecha_ingreso_dictamen": [],
         "orden_del_dia": null,
         "sancion_fecha": null
+      },
+      "timeline": {
+        "camara_origen": "Diputados",
+        "camara_revisora": "Senado",
+        "origen_hitos": {
+          "ingreso": null,
+          "dictamen": null,
+          "sancion": null
+        },
+        "revisora_hitos": {
+          "ingreso": null,
+          "dictamen": null,
+          "sancion": null
+        }
       },
       "nota": {
         "resumen_mensaje_pen": [
@@ -689,6 +843,20 @@
         "fecha_ingreso_dictamen": [],
         "orden_del_dia": null,
         "sancion_fecha": null
+      },
+      "timeline": {
+        "camara_origen": "Diputados",
+        "camara_revisora": "Senado",
+        "origen_hitos": {
+          "ingreso": null,
+          "dictamen": null,
+          "sancion": null
+        },
+        "revisora_hitos": {
+          "ingreso": null,
+          "dictamen": null,
+          "sancion": null
+        }
       },
       "nota": {
         "resumen_mensaje_pen": [
@@ -759,6 +927,20 @@
         "fecha_ingreso_dictamen": [],
         "orden_del_dia": null,
         "sancion_fecha": null
+      },
+      "timeline": {
+        "camara_origen": "Diputados",
+        "camara_revisora": "Senado",
+        "origen_hitos": {
+          "ingreso": null,
+          "dictamen": null,
+          "sancion": null
+        },
+        "revisora_hitos": {
+          "ingreso": null,
+          "dictamen": null,
+          "sancion": null
+        }
       },
       "nota": {
         "resumen_mensaje_pen": [

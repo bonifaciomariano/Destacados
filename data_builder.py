@@ -177,6 +177,49 @@ def tiene_fecha_real(raw):
     return bool(re.search(r'\d{2}/\d{2}/\d{4}', str(raw)))
 
 
+def dictamen_fecha_de_tramite(tramite):
+    """Última fecha de dictamen conocida para el trámite: prioriza la columna
+    FECHA INGRESO DICTAMEN y si no hay nada ahí, cae a la fecha de egreso de la
+    última comisión con dictamen emitido."""
+    fechas = tramite.get("fecha_ingreso_dictamen") or []
+    if fechas:
+        return fechas[-1]
+    for c in reversed(tramite.get("comisiones") or []):
+        if c.get("fecha_egreso"):
+            return c["fecha_egreso"]
+    return None
+
+
+def build_timeline(origen, tramite):
+    """Arma la línea de tiempo de dos tramos (cámara de origen / cámara revisora)
+    para el modal del front. `tramite` siempre trae los datos de la planilla del
+    Senado (o vacío si es un proyecto manual sin fila en el Excel), así que solo
+    lo usamos del lado que efectivamente representa: si el proyecto es PE, el
+    Senado es la cámara de origen; si es CD (o manual, ya cargado en Diputados),
+    el Senado es la cámara revisora. Del otro lado no hay fuente de datos hoy,
+    así que queda con fechas en None (el front lo muestra como "sin dato")."""
+    hitos_vacios = {"ingreso": None, "dictamen": None, "sancion": None}
+    hitos_de_tramite = {
+        "ingreso": tramite.get("ingreso"),
+        "dictamen": dictamen_fecha_de_tramite(tramite),
+        "sancion": tramite.get("sancion_fecha"),
+    }
+    if origen == "PE":
+        return {
+            "camara_origen": "Senado",
+            "camara_revisora": "Diputados",
+            "origen_hitos": hitos_de_tramite,
+            "revisora_hitos": dict(hitos_vacios),
+        }
+    # origen == "CD", o proyecto manual (origen None) ya cargado en Diputados
+    return {
+        "camara_origen": "Diputados",
+        "camara_revisora": "Senado",
+        "origen_hitos": dict(hitos_vacios),
+        "revisora_hitos": hitos_de_tramite,
+    }
+
+
 def build(xlsx_path, fuentes_dir):
     wb = openpyxl.load_workbook(xlsx_path, data_only=False)
     ws = wb.active
@@ -292,6 +335,7 @@ def build(xlsx_path, fuentes_dir):
             },
             "nota": None,
         }
+        proyecto["timeline"] = build_timeline(origen, proyecto["tramite"])
 
         if nota:
             proyecto["nota"] = etiquetar_camaras({
@@ -311,6 +355,13 @@ def build(xlsx_path, fuentes_dir):
         if not nota:
             continue
         claves_usadas.add(archivo)
+        tramite_manual = {
+            "ingreso": None,
+            "comisiones": [],
+            "fecha_ingreso_dictamen": [],
+            "orden_del_dia": None,
+            "sancion_fecha": None,
+        }
         proyectos.append({
             "expediente": manual["expediente"],
             "origen": None,
@@ -322,13 +373,8 @@ def build(xlsx_path, fuentes_dir):
             "categoria": manual["categoria"],
             "badge_camara": None,
             "camara_actual": manual["camara_actual"],
-            "tramite": {
-                "ingreso": None,
-                "comisiones": [],
-                "fecha_ingreso_dictamen": [],
-                "orden_del_dia": None,
-                "sancion_fecha": None,
-            },
+            "tramite": tramite_manual,
+            "timeline": build_timeline(None, tramite_manual),
             "nota": etiquetar_camaras({
                 "resumen_mensaje_pen": nota["resumen_mensaje_pen"],
                 "resumen_expediente": nota["resumen_expediente"],
