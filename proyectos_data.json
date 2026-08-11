@@ -1,0 +1,793 @@
+{
+  "generado_al": "2026-08-11",
+  "total": 13,
+  "proyectos": [
+    {
+      "expediente": "PE-193/26",
+      "origen": "PE",
+      "autor": "Poder Ejecutivo Nacional",
+      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/193.26/PE/PL",
+      "titulo": "Reforma de la Ley General de Sociedades y economía digital",
+      "nombre_corto": "Reforma ley general de sociedades",
+      "caratula_original": "MENSAJE N° 187/26 Y PROYECTO DE LEY GENERAL DE SOCIEDADES.",
+      "categoria": "en_comision",
+      "badge_camara": null,
+      "camara_actual": "Senado",
+      "tramite": {
+        "ingreso": "01/06/2026",
+        "comisiones": [
+          {
+            "comision": "DE LEGISLACIÓN GENERAL",
+            "fecha_ingreso": "11/06/2026",
+            "fecha_egreso": null
+          }
+        ],
+        "fecha_ingreso_dictamen": [],
+        "orden_del_dia": null,
+        "sancion_fecha": null
+      },
+      "nota": {
+        "resumen_mensaje_pen": [
+          "Modernización del marco societario argentino: El Poder Ejecutivo Nacional propone reformar integralmente el régimen societario para adecuar la Ley N° 19.550 (sancionada en 1972) a las necesidades económicas, tecnológicas y de organización del siglo XXI, mediante la simplificación de trámites, la digitalización y la reducción de costos regulatorios.",
+          "Fortalecimiento de la libertad y economía digital: El proyecto promueve la autonomía de la voluntad de los socios como principio rector (estableciendo el carácter supletorio de la ley), elimina restricciones en el objeto social, y busca posicionar de manera pionera a la Argentina mediante la regulación de estructuras tecnológicas innovadoras como las \"sociedades automatizadas\" (operadas por inteligencia artificial) y las Organizaciones Autónomas Descentralizadas (sociedades DAO)."
+        ],
+        "resumen_expediente": [
+          "Simplificación registral, flexibilidad y reorganización de tipos: Se eliminan tipos societarios tradicionales en desuso (colectiva, en comandita simple, de capital e industria, en comandita por acciones y sociedades anónimas con participación estatal mayoritaria), se integra la Sociedad por Acciones Simplificada (SAS), se crea la figura de \"sociedad simple\" y se elimina la exigencia de conexidad para el objeto social, permitiendo que las empresas se adapten rápidamente a las demandas del mercado.",
+          "Digitalización integral y nuevas tecnologías: El texto (compuesto por 277 artículos) introduce la digitalización obligatoria de libros societarios y contables en dos años, el legajo digital público y gratuito, el domicilio electrónico vinculante, y tipifica tanto la \"Sociedad Automatizada\" (que funciona mediante algoritmos e IA sin empleados ni intervención humana en su gestión diaria, respondiendo con su patrimonio por daños) como la \"Sociedad DAO\" (descentralizada mediante protocolo informático, exigiendo la identificación de sus beneficiarios finales y un representante humano)."
+        ],
+        "reunion_comision": {
+          "fecha": "24/06/2026",
+          "comision": "Comisión de Legislación General",
+          "resumen": "Reunión informativa para dar inicio al tratamiento del proyecto de Ley General de Sociedades (Expte. PE-193/26), con la exposición del ministro Federico Sturzenegger, funcionarios del Poder Ejecutivo y el posterior debate de preguntas de los senadores.",
+          "posturas_principales": [
+            "Paula Taddei (Subsecretaria de Planeamiento Estratégico): Defendió el proyecto como un cambio de paradigma que pasa de la presunción de que el Estado sabe mejor cómo deben organizarse los proyectos económicos a la plena autonomía de la voluntad de los socios, la digitalización estatal y el uso de instrumentos modernos de financiamiento convertible.",
+            "Alejandro Ramírez (Inspector General de Justicia): Detalló que la actual ley (pensada en 1972) resulta obsoleta para las MiPyMEs, que representan el 99,8% de las empresas del país y generan el 64% del empleo. Explicó la reestructuración en una parte general de la ley, la simplificación burocrática de las S.A. cerradas y la necesidad de regular las DAO identificando al beneficiario final de conformidad con los estándares del GAFI para evitar el lavado de activos.",
+            "Federico Sturzenegger (Ministro de Desregulación y Transformación del Estado): Sostuvo que dotar de un marco legal atractivo y de responsabilidad limitada a las sociedades automatizadas y DAO es una oportunidad de desarrollo excepcional para el país —similar al impulso jurídico-fiscal que despegó la economía de Irlanda—, permitiendo que empresas globales se radiquen y tributen en la Argentina.",
+            "Senador Bartolo Abdala (La Libertad Avanza): Celebró la voluntad de actualizar la normativa para erradicar trabas burocráticas y apoyó especialmente la flexibilización para ampliar libremente el objeto social, manifestando su disposición para dialogar con todos los bloques.",
+            "Senador Martín Soria (Unión por la Patria): Calificó la reforma como \"un brazo de industricidio y timba financiera\", criticó la desregulación general del gobierno y argumentó que el proyecto busca convertir al país en un laboratorio de desregulación salvaje y \"paraíso de irresponsabilidad fiscal y digital\" al habilitar domicilios virtuales que facilitan fraudes y lavado.",
+            "Senador Capitanich (Oposición): Formuló cinco objeciones constitucionales de extrema gravedad (tutela judicial efectiva, derecho de propiedad de terceros, igualdad ante la ley, potestad tributaria y riesgos de lavado) frente a la personería jurídica plena de IAs sin responsables humanos alcanzables. Planteó la necesidad de exigir auditorías técnicas, seguros obligatorios, conservación de evidencia algorítmica y una revisión humana significativa.",
+            "Senador Salino (Oposición): Expresó preocupación por las consecuencias de un objeto social que permita facturar cualquier rubro, la desaparición de la obligatoriedad de la reserva legal en el patrimonio neto y la liberación de la responsabilidad del promotor una vez inscripta la DAO.",
+            "Senadora Kirchner (Oposición): Indagó sobre los fundamentos de suprimir las sociedades tradicionales en comandita y de capital e industria, y advirtió sobre el riesgo de consolidar una total dependencia tecnológica hacia plataformas extranjeras al carecer de infraestructura propia.",
+            "Senadora Álvarez Rivero (Aliado): Manifestó su acuerdo con el modelo de desarrollo celta (Irlanda) y remarcó la importancia de acoplar a esta ley una baja sustancial de impuestos con carácter federal para potenciar las inversiones provinciales.",
+            "Senador Pagotto (La Libertad Avanza / Aliado): Coincidió en la necesidad de actualizar la LGS puesto que muchos tipos societarios tradicionales están en total desuso en la práctica profesional de los estudios jurídicos, abogando por un debate técnico serio para resguardar la seguridad jurídica y la estabilidad.",
+            "Senador Atauche (La Libertad Avanza): Felicitó a los funcionarios por la valentía de abordar legislativamente las tecnologías del futuro y la inteligencia artificial, destacando que existe consenso en que la ley actual debe cambiar."
+          ],
+          "camara": "Senado"
+        },
+        "orden_del_dia_detalle": null,
+        "sancion_detalle": null
+      }
+    },
+    {
+      "expediente": "PE-186/26",
+      "origen": "PE",
+      "autor": "Poder Ejecutivo Nacional",
+      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/186.26/PE/PL",
+      "titulo": "Derogación de la Ley de Etiquetado Frontal",
+      "nombre_corto": "Etiquetado frontal",
+      "caratula_original": "MENSAJE N° 180/26 Y PROYECTO DE LEY QUE DEROGA SU SIMILAR 27.642 - DE PROMOCION DE LA ALIMENTACION SALUDABLE -.",
+      "categoria": "en_comision",
+      "badge_camara": null,
+      "camara_actual": "Senado",
+      "tramite": {
+        "ingreso": "26/05/2026",
+        "comisiones": [
+          {
+            "comision": "DE SALUD",
+            "fecha_ingreso": "29/05/2026",
+            "fecha_egreso": null
+          },
+          {
+            "comision": "DE INDUSTRIA Y COMERCIO",
+            "fecha_ingreso": "29/05/2026",
+            "fecha_egreso": null
+          }
+        ],
+        "fecha_ingreso_dictamen": [],
+        "orden_del_dia": null,
+        "sancion_fecha": null
+      },
+      "nota": {
+        "resumen_mensaje_pen": [
+          "El Mensaje N° 180/2026 propicia la derogación integral de la Ley N° 27.642 de Promoción de la Alimentación Saludable.",
+          "Fundamenta que el modelo de perfil de nutrientes de la OPS es excesivamente rígido y aplica parámetros homogéneos sobre matrices alimentarias muy diversas sin contemplar la porción real, el procesamiento, ni la densidad nutricional de los alimentos.",
+          "Sostiene que el sistema actual es binario y desincentiva la mejora gradual de productos, genera asimetrías regulatorias con el MERCOSUR, impone costos desproporcionados a PyMEs y confunde al consumidor al colocar sellos equivalentes en alimentos de composición muy diferente.",
+          "Destaca que la derogación no elimina las obligaciones de información nutricional, las cuales continúan plenamente vigentes bajo el Código Alimentario Argentino y el sistema obligatorio armonizado del MERCOSUR."
+        ],
+        "resumen_expediente": [
+          "Consiste en un proyecto de ley de artículo único sustantivo que propone la derogación de la Ley N° 27.642 6.",
+          "Dispone que la vigencia de la norma comenzará a partir del día de su publicación en el Boletín Oficial."
+        ],
+        "reunion_comision": null,
+        "orden_del_dia_detalle": null,
+        "sancion_detalle": null
+      }
+    },
+    {
+      "expediente": "PE-185/26",
+      "origen": "PE",
+      "autor": "Poder Ejecutivo Nacional",
+      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/185.26/PE/PL",
+      "titulo": "Ley de prevencion de la ludopatia y regulacion de juegos de azar en linea",
+      "nombre_corto": "Ludopatía y juegos de azar",
+      "caratula_original": "MENSAJE N° 179/26 Y PROYECTO DE LEY DE PREVENCION DE LA LUDOPATIA Y REGULACION DE JUEGOS DE AZAR EN LINEA.",
+      "categoria": "en_comision",
+      "badge_camara": null,
+      "camara_actual": "Senado",
+      "tramite": {
+        "ingreso": "26/05/2026",
+        "comisiones": [
+          {
+            "comision": "DE SALUD",
+            "fecha_ingreso": "29/05/2026",
+            "fecha_egreso": null
+          },
+          {
+            "comision": "DE LEGISLACIÓN GENERAL",
+            "fecha_ingreso": "29/05/2026",
+            "fecha_egreso": null
+          },
+          {
+            "comision": "DE JUSTICIA Y ASUNTOS PENALES",
+            "fecha_ingreso": "29/05/2026",
+            "fecha_egreso": null
+          }
+        ],
+        "fecha_ingreso_dictamen": [],
+        "orden_del_dia": null,
+        "sancion_fecha": null
+      },
+      "nota": null
+    },
+    {
+      "expediente": "PE-102/26",
+      "origen": "PE",
+      "autor": "Poder Ejecutivo Nacional",
+      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/102.26/PE/PL",
+      "titulo": "Reforma electoral integral",
+      "nombre_corto": "Reforma electoral",
+      "caratula_original": "MENSAJE N° 110/26 Y PROYECTO DE LEY DE REFORMA ELECTORAL INTEGRAL.",
+      "categoria": "en_comision",
+      "badge_camara": null,
+      "camara_actual": "Senado",
+      "tramite": {
+        "ingreso": "22/04/2026",
+        "comisiones": [
+          {
+            "comision": "DE ASUNTOS CONSTITUCIONALES",
+            "fecha_ingreso": "24/04/2026",
+            "fecha_egreso": null
+          }
+        ],
+        "fecha_ingreso_dictamen": [],
+        "orden_del_dia": null,
+        "sancion_fecha": null
+      },
+      "nota": {
+        "resumen_mensaje_pen": [
+          "El Mensaje N° 110/2026 del Poder Ejecutivo Nacional tiene por objeto someter a consideración la Reforma Electoral Integral, argumentando que el proyecto busca fortalecer la democracia, aumentar la representatividad, transparentar el financiamiento de los partidos políticos y perfeccionar el sistema de Boleta Única de Papel (BUP).",
+          "Sostiene la necesidad imperiosa de ordenar el régimen de partidos políticos ante una excesiva fragmentación (con 45 partidos nacionales y 714 de distrito al 31 de marzo de 2026) que distorsiona el sistema electoral nacional con estructuras ficticias (\"sellos de goma\"). Asimismo, defiende la eliminación de las PASO debido al escaso uso que las coaliciones competitivas le han dado al instrumento en los últimos 16 años, permitiendo así un ahorro muy significativo del gasto público electoral."
+        ],
+        "resumen_expediente": [
+          "Régimen de Partidos Políticos, PASO y Financiamiento: El proyecto de ley modifica la Ley N° 23.298 para aumentar el requisito de afiliados necesarios por distrito al 0,5% del padrón electoral (con un tope de 10.000 afiliados), elevar de 5 a 10 las provincias exigidas para el reconocimiento de un partido nacional, e incorporar la afiliación digital mediante control biométrico. Además, elimina por completo las elecciones PASO (Ley N° 26.571), derivando la selección de candidatos a las cartas orgánicas partidarias y exigiendo un sistema de avales ciudadanos digitales. En materia de financiamiento, se eliminan los aportes de campaña públicos y los espacios de publicidad gratuita en medios audiovisuales, incrementando el tope para aportes privados al 35% por persona, suprimiendo los límites de gastos y obligando a los partidos a declarar sus aportes de manera semanal ante la Justicia Electoral.",
+          "Parlamentarios del MERCOSUR, Simultaneidad y Ficha Limpia: Se suprime la elección popular directa para el Parlamento del MERCOSUR, estableciendo una designación indirecta proporcional por parte de la Cámara de Diputados de la Nación. En cuanto a la simultaneidad electoral, se regula la integración de categorías nacionales, provinciales y municipales en la Boleta Única de Papel, incluyendo en el diseño un casillero opcional para \"voto por lista completa\" 5. Por último, instaura el régimen de \"Ficha Limpia\", inhabilitando para candidaturas nacionales y cargos jerárquicos de la función pública a aquellas personas con condenas por delitos dolosos confirmadas en segunda instancia antes del 31 de diciembre del año anterior al proceso electoral."
+        ],
+        "reunion_comision": {
+          "fecha": "13/05/2026",
+          "comision": "Comisión de Asuntos Constitucionales del Honorable Senado de la Nación",
+          "resumen": "Reunión informativa en la que se terminó de conformar la comisión designando a la senadora María Florencia López como vicepresidenta, se dio inicio formal al tratamiento del expediente PE-102/2026 con la exposición técnica de Luz Landívar (asesora del Ministerio del Interior) y se abrió una ronda de preguntas de los legisladores.",
+          "posturas_principales": [
+            "Dra. Luz Landívar (Asesora del Ministerio del Interior / Expositora): Defendió con énfasis la iniciativa del PEN argumentando que sube la vara de exigencia para que los partidos políticos adquieran una verdadera representación y federalismo. Justificó que la eliminación de las PASO y la elección indirecta de parlamentarios del Mercosur generarán importantes ahorros al Estado. Sostuvo que la declaración semanal de aportes brindará una transparencia contundente, y explicó que el debate presidencial obligatorio deja de ser coercitivo respetando la voluntad de los candidatos.",
+            "Senadores de la Oposición (Bloque Unión por la Patria - Daniel Bensusán, Fernando Salino, José Emilio Neder): Expresaron un rechazo categórico a la eliminación de las PASO aduciendo que debilita el derecho de participación ciudadana y provocará una Boleta Única inmensa e inmanejable en la elección general. Alertaron con gravedad que habilitar la figura de \"gastos independientes\" de terceros sin obligación de rendición abre las puertas al blanqueo de capitales del narcotráfico en campañas políticas. Indicaron que las exigencias de afiliación de partidos nacionales buscan hacer desaparecer de manera arbitraria a las fuerzas provinciales pequeñas, y calificaron de inviable administrativamente la exigencia de rendición contable semanal.",
+            "Senadores Oficialistas y Aliados (La Libertad Avanza y PRO - Juan Carlos Pagotto, Carmen Álvarez Rivero, Guadalupe Bullrich): Apoyaron decididamente el ordenamiento y depuración de partidos sin actividad real (\"sellos de goma\") para dar estabilidad política y bajar el riesgo país. Avalaron la implementación de la afiliación digital y la plataforma de avales ciudadanos, y ponderaron la Boleta Única de Papel como un mecanismo indispensable para erradicar el robo de boletas. Pagotto sugirió mejorar técnicamente la redacción del régimen de Ficha Limpia para precisar y blindar procesalmente la definición de doble instancia confirmatoria.",
+            "Senadora de Unidad Federal (Alejandra Vigo): Celebró que la reforma se discuta en un año no electoral, pero manifestó fuertes dudas respecto del predominio del financiamiento privado sobre el estatal. Se opuso rotundamente a quitar la obligatoriedad del debate presidencial y reclamó que el capítulo de Ficha Limpia se debata por separado como un proyecto de ley independiente debido a los múltiples antecedentes en el Senado.",
+            "Senador Jorge Capitanich (Invitado / No miembro de la Comisión): Propuso plasmar rigurosamente las pautas de validación de identidad digital biométrica en el propio texto de la ley para no delegar esas facultades a la reglamentación de la justicia electoral, a la vez que defendió la fiscalización estatal y el financiamiento público de las internas."
+          ],
+          "camara": "Senado"
+        },
+        "orden_del_dia_detalle": null,
+        "sancion_detalle": null
+      }
+    },
+    {
+      "expediente": "PE-100/26",
+      "origen": "PE",
+      "autor": "Poder Ejecutivo Nacional",
+      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/100.26/PE/PL",
+      "titulo": "Ley contra el fraude de pensiones por invalidez",
+      "nombre_corto": "Pensiones por invalidez",
+      "caratula_original": "MENSAJE N° 109/26 Y PROYECTO DE LEY CONTRA EL FRAUDE DE PENSIONES POR INVALIDEZ.",
+      "categoria": "en_comision",
+      "badge_camara": null,
+      "camara_actual": "Senado",
+      "tramite": {
+        "ingreso": "20/04/2026",
+        "comisiones": [
+          {
+            "comision": "DE TRABAJO Y PREVISIÓN SOCIAL",
+            "fecha_ingreso": "23/04/2026",
+            "fecha_egreso": null
+          },
+          {
+            "comision": "DE POBLACIÓN Y DESARROLLO HUMANO",
+            "fecha_ingreso": "23/04/2026",
+            "fecha_egreso": null
+          },
+          {
+            "comision": "DE PRESUPUESTO Y HACIENDA",
+            "fecha_ingreso": "23/04/2026",
+            "fecha_egreso": null
+          }
+        ],
+        "fecha_ingreso_dictamen": [],
+        "orden_del_dia": null,
+        "sancion_fecha": null
+      },
+      "nota": {
+        "resumen_mensaje_pen": [
+          "Sospecha de fraude por incremento exponencial: Entre los años 2003 y 2023, la cantidad de pensiones no contributivas por invalidez otorgadas en el país pasó de 76.000 a aproximadamente 1.200.000 beneficios, lo que representa un crecimiento sin justificación médica que generó sospechas de fraude confirmadas por auditorías e investigaciones judiciales.",
+          "Focalización y preservación de recursos: El mensaje del Poder Ejecutivo fundamenta la necesidad de establecer mecanismos específicos para prevenir, detectar y sancionar el fraude, evitando el dispendio injustificable de recursos públicos y asegurando la cobertura exclusiva de beneficiarios legítimos con incapacidad laboral acreditada."
+        ],
+        "resumen_expediente": [
+          "Incompatibilidad laboral y reempadronamiento obligatorio: El proyecto dictamina que la pensión por invalidez laboral será incompatible con el trabajo formal o la inscripción en regímenes tributarios generales o simplificados. Adicionalmente, dispone un reempadronamiento obligatorio para todos los beneficiarios en un plazo de 90 días (prorrogable por 30 más) bajo apercibimiento de suspensión automática de la prestación.",
+          "Fiscalización periódica y adecuación de recursos: Faculta a la Secretaría Nacional de Discapacidad a realizar auditorías médicas y socioeconómicas cruzando datos con organismos como ANSES y ARCA. A su vez, adecua el financiamiento de las prestaciones básicas y programas de discapacidad para ajustarlos a la disponibilidad de los recursos presupuestarios del Estado."
+        ],
+        "reunion_comision": null,
+        "orden_del_dia_detalle": null,
+        "sancion_detalle": null
+      }
+    },
+    {
+      "expediente": "PE-99/26",
+      "origen": "PE",
+      "autor": "Poder Ejecutivo Nacional",
+      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/99.26/PE/PL",
+      "titulo": "Reforma de la Ley Nacional de Salud Mental",
+      "nombre_corto": "Salud mental",
+      "caratula_original": "MENSAJE N° 108/26 Y PROYECTO DE LEY SOBRE MODIFICACIONES A LA LEY NACIONAL DE SALUD MENTAL N° 26.657.",
+      "categoria": "en_comision",
+      "badge_camara": null,
+      "camara_actual": "Senado",
+      "tramite": {
+        "ingreso": "20/04/2026",
+        "comisiones": [
+          {
+            "comision": "DE SALUD",
+            "fecha_ingreso": "23/04/2026",
+            "fecha_egreso": null
+          },
+          {
+            "comision": "DE LEGISLACIÓN GENERAL",
+            "fecha_ingreso": "23/04/2026",
+            "fecha_egreso": null
+          }
+        ],
+        "fecha_ingreso_dictamen": [],
+        "orden_del_dia": null,
+        "sancion_fecha": null
+      },
+      "nota": {
+        "resumen_mensaje_pen": [
+          "Modificación de normas fundamentales: Propone reformar la Ley Nacional de Salud Mental N° 26.657, la Ley del Mecanismo Nacional de Prevención de la Tortura N° 26.827 y los artículos 41, 42 y 59 del Código Civil y Comercial de la Nación, con el objeto de reorientar el sistema hacia un abordaje clínico-médico con centralidad de la psiquiatría.",
+          "Cambio de estándares y reincorporación de efectores: Propone reemplazar la categoría jurídica de \"riesgo cierto e inminente\" por la de \"situación de riesgo grave de daño\" para posibilitar una clínica preventiva y contextualizada; a su vez, restituye a los hospitales especializados (monovalentes) dentro de la red oficial de atención y obliga a que las visitas de inspección del Comité contra la Tortura incluyan a un médico psiquiatra."
+        ],
+        "resumen_expediente": [
+          "Ampliación del Objeto e Interdisciplina: Redefine el objeto de la ley para promover de manera explícita la prevención, tratamiento, rehabilitación y recuperación de trastornos mentales (artículos 1° al 3°), eliminando de su articulado la Declaración de Caracas y los Principios de Brasilia (artículo 2°), y dispone que los equipos interdisciplinarios deben integrarse obligatoriamente con al menos un médico psiquiatra (artículo 6°/artículo 8° de la ley).",
+          "Procedimiento y Excepcionalidad de Internación Involuntaria: Caracteriza la internación involuntaria como un recurso excepcional que requiere de un dictamen firmado por al menos dos profesionales de diferentes disciplinas, siendo uno de ellos psiquiatra (artículos 11° y 13°); asimismo, habilita que un médico generalista ordene la internación de urgencia en ausencia de especialista en territorio, con la condición de ser convalidada por el equipo especializado dentro de las 24 horas (artículo 15°).",
+          "Potestades de Alta, Control Judicial y Red Sanitaria: Concede al equipo de salud tratante la potestad exclusiva de ordenar el alta y externación sin autorización del juez (artículo 17°), permite al juez disponer el control judicial del paciente externado por hasta 6 meses para garantizar la adherencia al tratamiento ambulatorio (artículo 18°), y autoriza las internaciones tanto en hospitales generales como en instituciones especializadas (monovalentes) públicas o privadas (artículos 21° y 22°).",
+          "Inspecciones del Comité contra la Tortura: Modifica la Ley 26.827 estableciendo que las visitas de inspección de los organismos de prevención en establecimientos de salud mental deben ser integradas obligatoriamente por un médico psiquiatra y deben abstenerse de interferir en el normal funcionamiento o de alterar los tratamientos médicos en curso (artículos 34° y 35°)."
+        ],
+        "reunion_comision": {
+          "fecha": "29/04/2026",
+          "comision": "Plenario de las Comisiones de Salud y de Legislación General",
+          "resumen": "Tres extensos plenarios informativos donde expusieron autoridades nacionales, directores de salud mental provinciales, asociaciones de profesionales de la salud, juristas, comisionados contra la tortura, y familiares de pacientes y víctimas de adicciones.",
+          "posturas_principales": [
+            "Funcionarios del Ministerio de Salud y SEDRONAR (L. González y H. Rizzuti): Sostienen que la ley vigente no funciona en la práctica clínica y genera \"puertas giratorias\" en adicciones; defienden el concepto de \"trastorno\", el cambio del estándar a \"riesgo grave\" para prever daños futuros, y la necesidad de convalidación médica de las internaciones involuntarias.",
+            "Especialistas Médicos y Psiquiátricos Pro-Reforma (R. Corral, E. De Fazio, A. Mega, L. Morra, B. Carricart, M. Campagnoli, V. Mischanchuk, I. Brusco, M. Waisman Campos, A. Blake, J. Devoto, M. Cetkovich, A. Desouches, P. Gargoloff): Argumentan que \"riesgo cierto e inminente\" paraliza a los médicos por temor a demandas por privación ilegal de la libertad, impidiendo prevenir tragedias; sostienen que el psiquiatra es insustituible para descartar patologías de origen orgánico que simulan cuadros psiquiátricos, y defienden los hospitales especializados (monovalentes) para casos agudos complejos por falta de infraestructura de seguridad en hospitales generales.",
+            "Especialistas, Colegios Profesionales y Directores de Salud Mental Anti-Reforma (M. Clingo, L. Grasso, J. Calmels, M. Malgá, A. Trimboli, A. Stolkiner, A. Stober, C. Sforza, M. Armus, S. Cottone, G. Groba, E. Dávila, B. Kliger, M. Elvira, J. Moreyra, L. Unsworth, X. Oñativia): Rechazan la centralidad médica que subordina a psicólogos y enfermeros, rompiendo el paradigma interdisciplinario; afirman que es impracticable por el déficit federal crónico de psiquiatras en el interior; advierten que \"trastorno\" patologiza la vida cotidiana e impulsa la medicalización temprana, y denuncian el vaciamiento de la RISaM y de la cooperación económica nacional a las provincias, lo que desmantela el modelo comunitario humanitario.",
+            "Asociaciones de Familiares e Inclusión Social (M. Charpentier, J. Roza Alconada, S. Maurig, M. Figueroa, N. Galeano, P. Di Pizzo, M. Monzón, S. Lazarte, M. Froy, J. Silberman, G. Milioto, S. Garaventa): Relatan desgarradores casos de hijos y hermanos muertos o severamente deteriorados por la exigencia de voluntad del adicto o por la inacción del sistema ante la falta de \"riesgo inminente\" clínico; apoyan la reforma para agilizar las internaciones involuntarias en adicciones y reabrir instituciones de contención especializada, describiendo la desprotección y humillación que sufren las familias en la trinchera.",
+            "Familiares en contra de la reforma (G. Del Valle, M. Leal): Afirman que la ley actual es una herramienta poderosa que protege los derechos de los usuarios de ser tratados como personas y que la reforma elimina derechos y transfiere toda la responsabilidad penal de las altas a las familias sin un sistema de seguimiento ni provisión de medicamentos por desfinanciamiento nacional.",
+            "Comité Nacional para la Prevención de la Tortura (G. Palmieri, M. R. Gauna Alsina): Argumenta que exigir la presencia obligatoria de un psiquiatra en sus inspecciones debilita los mecanismos locales por la escasez de profesionales; sostienen que las instituciones monovales (manicomios) son propensas por su opacidad a malos tratos e inadecuadas sujeciones mecánicas/químicas sin control, defendiendo las inspecciones independientes interdisciplinarias.",
+            "Jueces y Juristas (M. López Mesa, J. Frías, M. L. Vieiros): Señalan que el sistema falla por la total falta de financiamiento y de dispositivos del artículo 11, y no por la ley misma; defienden el sistema de frenos y contrapesos (check and balance) entre psiquiatras y jueces; justifican el cambio del estándar a \"riesgo grave\" y proponen un enfoque \"transdisciplinar\" y la noción de \"autonomía prospectiva\" para proteger la salud futura del paciente."
+          ],
+          "camara": "Senado"
+        },
+        "orden_del_dia_detalle": null,
+        "sancion_detalle": null
+      }
+    },
+    {
+      "expediente": "PE-13/26",
+      "origen": "PE",
+      "autor": "Poder Ejecutivo Nacional",
+      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/13.26/PE/PL",
+      "titulo": "Ley de Inviolabilidad de la Propiedad Privada y desregulación territorial",
+      "nombre_corto": "Inviolabilidad de la propiedad privada",
+      "caratula_original": "MENSAJE Nº 22/26 Y PROYECTO DE LEY SOBRE INVIOLABILIDAD DE LA PROPIEDAD PRIVADA.",
+      "categoria": "media_sancion",
+      "badge_camara": "1/2 sanción HSN",
+      "camara_actual": "Diputados",
+      "tramite": {
+        "ingreso": "27/03/2026",
+        "comisiones": [
+          {
+            "comision": "DE ASUNTOS CONSTITUCIONALES",
+            "fecha_ingreso": "06/04/2026",
+            "fecha_egreso": "20/05/2026"
+          },
+          {
+            "comision": "DE LEGISLACIÓN GENERAL",
+            "fecha_ingreso": "06/04/2026",
+            "fecha_egreso": "20/05/2026"
+          }
+        ],
+        "fecha_ingreso_dictamen": [
+          "28/05/2026",
+          "03/06/2026",
+          "20/05/2026"
+        ],
+        "orden_del_dia": {
+          "numero": "104",
+          "anio": "2026"
+        },
+        "sancion_fecha": "07/08/2026"
+      },
+      "nota": {
+        "resumen_mensaje_pen": [
+          "Fundamentación de la propuesta: El Poder Ejecutivo Nacional remite el proyecto de \"Ley de Inviolabilidad de la Propiedad Privada\" con el objetivo de remover restricciones normativas que considera ilegítimas sobre el derecho de propiedad, fortalecer su tutela efectiva conforme al artículo 17 de la Constitución Nacional y promover la seguridad jurídica como motor de inversiones.",
+          "Estructura del proyecto: Se compone de seis ejes de reforma: endurecimiento del régimen expropiatorio (Ley N° 21.499), agilización de desalojos mediante procesos sumarísimos (CPCCN), descentralización provincial de la regularización de villas y asentamientos (Ley N° 27.453 - RENABAP), flexibilización de los límites a la adquisición de tierras rurales por parte de extranjeros (Ley N° 26.737), redefinición de las limitaciones de uso del suelo para terrenos afectados por incendios (Ley N° 26.815), y digitalización del Registro de la Propiedad Inmueble (Ley N° 17.801)."
+        ],
+        "resumen_expediente": [
+          "Garantías al propietario y desalojos rápidos: Propone limitar el poder de expropiación del Estado (exigiendo idoneidad, necesidad y proporcionalidad, e incorporando compensación por lucro cesante y actualización por IPC) e introduce el juicio sumarísimo con restitución anticipada para agilizar los lanzamientos de intrusos y morosos en contratos de alquiler.",
+          "Desregulación territorial, ambiental y digital: Busca derogar los límites y restricciones a la titularización extranjera de tierras rurales (salvo para estados extranjeros), flexibilizar el cambio de uso de suelo en áreas no productivas afectadas por incendios forestales, sustituir el esquema único y centralizado del RENABAP y crear una Red Federal Digital y Ventanilla Única para modernizar la publicidad registral."
+        ],
+        "reunion_comision": {
+          "fecha": "08/04/2026, 15/04/2026, 20/05/2026",
+          "comision": "Plenario de Comisiones de Asuntos Constitucionales y de Legislación General",
+          "resumen": "Serie de tres plenarios destinados al tratamiento de la ley: exposición inicial del PEN, audiencias informativas con veintidós expositores sectoriales y el debate de cierre de comisiones con firma de dictamen. 2, 4-12",
+          "posturas_principales": [
+            "Oficialismo y bloques aliados: Defienden la protección absoluta del derecho de propiedad para atraer inversiones, afirmando que leyes como la de tierras y del fuego imponen cercos inconstitucionales. Argumentan que el centralismo de RENABAP fracasó rotundamente y sostienen que el dictamen final, al incorporar topes al lucro cesante, la Ley Pierri y delegar los límites de tierras en las provincias, construyó un consenso superador.",
+            "Oposición y expositores críticos: Denuncian la conformación irregular e ilegítima de la Comisión de Asuntos Constitucionales. Alertas sobre el despojo a la soberanía que implicaría la extranjerización de tierras de frontera y acuíferos. Sostienen que el desalojo sumarísimo es de una crueldad extrema para familias e inquilinos vulnerables, que la reforma del manejo del fuego fomenta los incendios para especulación inmobiliaria, y que las trabas expropiatorias blindan las privatizaciones y encarecen la recuperación estatal de empresas públicas."
+          ],
+          "camara": "Senado"
+        },
+        "orden_del_dia_detalle": {
+          "numero": "104/2026",
+          "firmantes": [
+            "En Mayoría (Dictamen de Comisión): Nadia J. Márquez, María B. Monte de Oca, Carmen Álvarez Rivero, Bartolomé E. Abdala, Juan C. Pagotto, Gonzalo Guzmán Coraita, Patricia Bullrich, Eduardo A. Vischi, Flavio S. Fama, Rodolfo A. Suárez y María V. Huala.",
+            "Con Disidencia Parcial/General: Edith E. Terenzi y Carlos M. Espínola.",
+            "En Minoría (Dictámenes alternativos): Bloque Justicialista 48 y Convicción Federal."
+          ],
+          "diferencias_clave": [
+            "Exclusión del RENABAP: Se eliminó por completo el Capítulo III del proyecto original para postergar la discusión de la regularización dominial de barrios populares y tratarla en una ley correctiva separada.",
+            "Límites y tasas en Expropiación: Se incorporó un tope a la indemnización por lucro cesante fijado en un máximo del 30% del valor del daño emergente (salvo prueba en contrario) y se especificó la actualización mediante el IPC más la tasa activa del Banco Nación, reemplazando la tasa de interés razonable imprecisa del proyecto original.",
+            "Descentralización de límites a extranjeros: Se eliminó el límite del 15% general de extranjerización y se delegó en las provincias la facultad de prohibir o regular la tenencia de tierras a extranjeros, manteniendo la autorización previa de la Nación sólo para casos con participación estatal extranjera.",
+            "Redefinición de plazos de desalojo: Se eliminó el plazo de 5 días para que el juez dicte sentencia y se exceptuó al magistrado de realizar un reconocimiento judicial previo con defensor oficial en casos de usurpación o falta de pago, extendiéndose además el plazo de intimación de pago a inquilinos legítimos de 3 a 10 días.",
+            "Protección en Manejo del Fuego: Se restituyeron los alcances y la vigencia de los artículos 22 y 22 bis originales de la Ley de Manejo del Fuego para que las provincias conserven sus limitaciones ambientales tras incendios de bosques nativos."
+          ],
+          "camara": "Senado"
+        },
+        "sancion_detalle": {
+          "link_taquigrafica": null,
+          "posturas_principales": [
+            "Oficialismo y bloques aliados (Voto Afirmativo - 37 votos): Sostienen que la ley consagra la garantía constitucional del derecho de propiedad frente a los abusos expropiatorios de un Estado que no paga a término. Aseguran que los desalojos sumarísimos combaten de manera ágil e inequívoca las usurpaciones y el accionar de grupos piqueteros delictivos en el territorio, a la vez que la modernización de los registros simplificará y desburocratizará los trámites de todos los ciudadanos.",
+            "Oposición (Voto Negativo - 33 votos): Denuncian que el proyecto es un \"estatuto de coloniaje del siglo XXI\" para desmantelar la soberanía energética, ambiental y territorial. Advierten que la reforma de expropiaciones encarece deliberadamente y blinda de manera \"corporativa\" las empresas y activos públicos privatizados frente a intentos de recuperación estatal futura. Asimismo, señalan que el desalojo exprés condena a la calle a inquilinos vulnerables asfixiados por la crisis, y que modificar la Ley de Manejo del Fuego quita los frenos preventivos contra incendios especulativos destinados a emprendimientos inmobiliarios."
+          ],
+          "camara": "Senado"
+        }
+      }
+    },
+    {
+      "expediente": "CD-6/26",
+      "origen": "CD",
+      "autor": "Poder Ejecutivo Nacional",
+      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/6.26/CD/PL",
+      "titulo": "Régimen de Incentivo para Grandes Inversiones en Nuevas Industrias (Súper RIGI)",
+      "nombre_corto": "Súper RIGI",
+      "caratula_original": "PROYECTO DE LEY EN REVISION SOBRE REGIMEN DE INCENTIVO PARA GRANDES INVERSIONES EN NUEVAS INDUSTRIAS (SUPER RIGI).",
+      "categoria": "en_comision",
+      "badge_camara": "1/2 sanción HCDN",
+      "camara_actual": "Senado",
+      "tramite": {
+        "ingreso": "26/06/2026",
+        "comisiones": [
+          {
+            "comision": "DE PRESUPUESTO Y HACIENDA",
+            "fecha_ingreso": "13/07/2026",
+            "fecha_egreso": null
+          },
+          {
+            "comision": "DE ECONOMÍA NACIONAL E INVERSIÓN",
+            "fecha_ingreso": "13/07/2026",
+            "fecha_egreso": null
+          },
+          {
+            "comision": "DE LEGISLACIÓN GENERAL",
+            "fecha_ingreso": "13/07/2026",
+            "fecha_egreso": null
+          }
+        ],
+        "fecha_ingreso_dictamen": [],
+        "orden_del_dia": null,
+        "sancion_fecha": null
+      },
+      "nota": {
+        "resumen_mensaje_pen": [
+          "Establecer un régimen superador de atracción de inversiones: Creación del Régimen de Incentivo para Grandes Inversiones en Nuevas Industrias (“Súper RIGI”), destinado a promover e incentivar proyectos que superen el monto de 1.000 millones de dólares en sectores estratégicos de alta tecnología, digitalización o actividades experimentales que actualmente no cuenten con desarrollo sustancial en el país.",
+          "Otorgar un marco jurídico excepcional: Brindar beneficios fiscales, aduaneros, de seguridad social y cambiarios —incluyendo una alícuota reducida de Ganancias al 15%, exenciones de derechos de importación y exportación, y un esquema progresivo de libre disponibilidad de divisas— garantizando la estabilidad normativa por 30 años para proteger el derecho de propiedad frente a cambios futuros."
+        ],
+        "resumen_expediente": [
+          "Definición de \"nuevas actividades económicas\": Declara de interés nacional las grandes inversiones que involucren el desarrollo de proyectos industriales, de servicios o de infraestructura digital estratégica que no se produzcan o presten en el territorio nacional o que se hallen en etapa piloto o experimental, excluyendo expresamente ampliaciones o adecuaciones de instalaciones preexistentes.",
+          "Requisitos y garantías clave: Los interesados deben constituirse como Vehículos de Proyecto Único (VPU) con objeto exclusivo, comprometer una inversión de al menos USD 1.000 millones (desembolsando un mínimo del 20% durante los dos primeros años) y adherir formalmente a las provincias y municipios correspondientes, garantizándoseles a cambio la estabilidad por 30 años y el derecho a prórroga de jurisdicción ante tribunales arbitrales extranjeros (como el CIADI o la CCI) en caso de controversias con el Estado Nacional."
+        ],
+        "reunion_comision": {
+          "fecha": "05/08/2026",
+          "comision": "Plenario de las Comisiones de Presupuesto y Hacienda, de Economía Nacional e Inversión, y de Legislación General (Senado de la Nación)",
+          "resumen": "Sesión plenaria del Senado para dar inicio formal al tratamiento del expediente CD. 6/26, en la que se coordinó la metodología del debate y se agendó convocar a funcionarios del Ministerio de Economía para la semana siguiente.",
+          "posturas_principales": [
+            "Presidencia de la Plenaria (Senador Monteverde - Oficialismo): Defiende la iniciativa explicando que el régimen busca incentivar inversiones masivas superiores a USD 1.000 millones para potenciar el empleo de alta productividad, aumentar los salarios reales y defender la propiedad privada como base del desarrollo del país, coordinando visitas oficiales aclaratorias.",
+            "Bloque Unión por la Patria (Senadores Capitanich, Salino y Soria): Manifiestan disconformidad con el apuro en el procedimiento. Capitanich exige convocar a un responsable en materia de ambiente para evaluar la sostenibilidad; Salino pide que la Oficina de Presupuesto del Congreso y los funcionarios expongan primero un balance proyecto por proyecto y provincia por provincia de los resultados del RIGI original antes de pasar a \"esta versión potenciada\"; Soria solicita citar de manera directa a los ministros Luis Caputo y Federico Sturzenegger.",
+            "Bloque LLA (Senador Abdala): Respalda con convicción el proyecto por generar confianza, previsibilidad y fomentar nuevas actividades de crecimiento inexistentes hoy en la Argentina.",
+            "Bloque PRO (Senador Goerling Lara): Acompaña el proyecto remarcando que es crucial para atraer capitales en sectores tecnológicos a nivel mundial, por lo que pide tomarse el tiempo necesario para recibir especialistas y debatir de manera madura.",
+            "(Nota de condensación: Previamente, en la Cámara de Diputados, durante la reunión informativa conjunta de comisiones del 03/06/2026, el Secretario de Coordinación de Energía y Minería, Daniel González, fue interpelado por el bloque opositor tras declarar reiteradamente que en el gobierno \"no sabían qué proyectos de inversión específicos\" ingresarían al Súper RIGI.)"
+          ],
+          "camara": "Senado"
+        },
+        "orden_del_dia_detalle": {
+          "numero": "149/2026 (Cámara de Diputados de la Nación)",
+          "firmantes": [
+            "Firmantes en Mayoría (Dictamen de Mayoría con modificaciones): Bertie Benegas Lynch, José L. Garrido, Martín Yeza, Carlos García, Mercedes Llano, Daiana Fernández Molero, Maura Gruber, Julio Moreno Ovalle, Alfredo Gonzales, Julieta Metral Asensio, Guillermo C. Agüero, Lisandro Almirón, Damián Arabia, Belén Avico, Mónica Becerra, Abel Chiconi, Facundo Correa Llano, Fernando de Andreis, Eduardo Falcone, Elia M. Fernández, Sergio Figliuolo, Álvaro García, Silvana Giudici, Gerardo G. González, Oscar A. Herrera Ahuad, Gerardo Huesen, María C. Ibañez, Andrés A. Laumann, Lilia Lemoine, Enrique Lluch, Lorena Macyszyn, Álvaro Martínez, Francisco Morchio, Lisandro Nieri, Marcos Patiño Brizuela, Santiago Pauli, Adrián Ravier, Verónica Razzini, Laura E. Rodríguez Machado, Gino Visconti y Carlos R. Zapata.",
+            "Firmante en Mayoría con Disidencia Parcial: Nancy V. Picón Martínez (Bloque Producción y Trabajo).",
+            "Firmantes en Minoría (Dictamen de Minoría de Rechazo - Bloque Unión por la Patria): Carlos D. Castagneto, Mario Manrique, Luana Volnovich, Alejandrina Borgatta, Adriana C. Serquis, Luciana Potenza, Cristian Andino, Gustavo Bordet, Sergio G. Casas, María G. de la Rosa, Abelardo Ferrán, Itai Hagman, Ana M. Ianni, Germán P. Martínez, Roxana Monzón, Jorge Mukdise, Kelly Olmos, Claudia M. Palladino, Ariel Rauschenberger, Agustín O. Rossi, Sabrina Selva, Julia Strada, Jorge Taiana, Victoria Tolosa Paz y Pablo R. Yedlin.",
+            "Firmantes en Minoría (Dictamen de Minoría de Rechazo - Bloque UCR / Evolución): Mariela Coletta y Martín Lousteau."
+          ],
+          "diferencias_clave": [
+            "Inclusión de plan de desarrollo de proveedores locales: A propuesta de bloques aliados, se incorporó en el artículo 17 (inciso o) el requisito obligatorio de presentar un plan que comprometa la contratación de proveedores locales (bienes, servicios u obras) por al menos un 20% de la inversión total en proveedores, siempre que la oferta local esté disponible y en condiciones de precio y calidad competitivas de mercado.",
+            "Ponderación doble para Investigación y Desarrollo (I+D): Se añadió al artículo 15 un incentivo para la ciencia y tecnología local, permitiendo que las inversiones realizadas en I+D vinculadas al proyecto se computen por el doble de su valor nominal para alcanzar el monto mínimo de inversión requerido (con un tope del 20% del mínimo total, computando el excedente a valor nominal).",
+            "Resguardo de regalías locales vigentes (Art. 113): Al cierre del debate parlamentario, el miembro informante introdujo una enmienda en el inciso d) del artículo 113 para establecer que las provincias y municipios no aplicarán nuevas regalías ni nuevos cánones administrativos, aclarándose la salvedad: \"sin perjuicio de las regalías o cánones vigentes\" 46, 47."
+          ],
+          "camara": "Diputados"
+        },
+        "sancion_detalle": {
+          "link_taquigrafica": null,
+          "posturas_principales": [
+            "Oficialismo y Bloques Aliados (LLA, PRO, MID, Innovación Federal, Producción y Trabajo): Sostienen con entusiasmo la sanción parlamentaria (aprobada con 130 votos afirmativos, 106 negativos y 7 abstenciones el 24 de junio de 2026) afirmando que es una ley del futuro, indispensable para brindar seguridad jurídica, estabilidad de 30 años y reglas de juego claras. Argumentan que permitirá competir a nivel mundial por inversiones de escala en sectores de frontera inexistentes en el país (inteligencia artificial, semiconductores, reactores nucleares, hidrógeno verde y grandes data centers), los cuales actuarán como polos que dinamizarán a miles de PyMEs locales y generarán más de 93.000 puestos de trabajo directos e indirectos. Resaltan además que impulsará un verdadero federalismo productivo, permitiendo que las provincias dejen de depender de transferencias de la Nación y brillen con sus propios recursos.",
+            "Bloques de Oposición (Unión por la Patria, Frente de Izquierda, Coalición Cívica, Provincias Unidas, sector de la UCR): Rechazan de manera tajante el proyecto, catalogándolo como un plan de \"entrega nacional\", \"saqueo\" y \"retroceso soberano\" al resignar la jurisdicción de los tribunales argentinos en favor de fueros extranjeros como el CIADI. Denuncian que la ley propicia un modelo de \"enclave\" extractivista, ya que no exige transferencia tecnológica obligatoria, permite la libre disponibilidad total de divisas de exportación a partir del tercer año, exime del pago de aranceles de importación e incluso habilita la entrada de maquinaria usada que destruirá a la industria metalmecánica y pyme del país. Asimismo, alertan sobre las asimetrías fiscales odiosas frente al resto de la economía (un costo fiscal estimado en USD 1.800 millones anuales y la rebaja de contribuciones patronales para corporaciones millonarias que desfinanciará a la ANSES), el avasallamiento inconstitucional de las autonomías provinciales y municipales al limitar sus impuestos locales, y los severos riesgos ambientales por el uso desmedido de agua y energía eléctrica de los data centers sin ningún control."
+          ],
+          "camara": "Diputados"
+        }
+      }
+    },
+    {
+      "expediente": "CD-3/26",
+      "origen": "CD",
+      "autor": "Poder Ejecutivo Nacional",
+      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/3.26/CD/PL",
+      "titulo": "Reforma energética: readecuación de subsidios de zona fría y saneamiento del Mercado Eléctrico Mayorista",
+      "nombre_corto": "Zonas frías",
+      "caratula_original": "PROYECTO DE LEY EN REVISION QUE MODIFICA LA LEY 25.565, DE PRESUPUESTO GENERAL DE GASTOS DE LA ADM. NACIONAL PARA EL EJERCICIO 2002 SOBRE READECUACION DEL REGIMEN DE SUBSIDIOS A LOS CONSUMOS RESIDENCIALES DE GAS NATURAL EN ZONAS FRIAS, REGULARIZACION DE DEUDAS ELECTRICAS Y DEROGA LOS DECRETOS 277/2022 Y 929/2013.",
+      "categoria": "en_comision",
+      "badge_camara": "1/2 sanción HCDN",
+      "camara_actual": "Senado",
+      "tramite": {
+        "ingreso": "21/05/2026",
+        "comisiones": [
+          {
+            "comision": "DE MINERÍA, ENERGÍA Y COMBUSTIBLES",
+            "fecha_ingreso": "22/05/2026",
+            "fecha_egreso": null
+          },
+          {
+            "comision": "DE PRESUPUESTO Y HACIENDA",
+            "fecha_ingreso": "22/05/2026",
+            "fecha_egreso": null
+          }
+        ],
+        "fecha_ingreso_dictamen": [],
+        "orden_del_dia": null,
+        "sancion_fecha": null
+      },
+      "nota": {
+        "resumen_mensaje_pen": [
+          "Readecuación de subsidios de gas: Propicia modificar el régimen de subsidios de gas natural en zonas frías para limitar la asistencia estatal y focalizarla socioeconómicamente, en consonancia con una política económica de reducción del déficit fiscal y normalización financiera del sistema.",
+          "Saneamiento del Mercado Eléctrico: Propone regularizar y cancelar las obligaciones que las empresas distribuidoras de energía eléctrica acumularon con CAMMESA en el Mercado Eléctrico Mayorista (MEM) debido a los sucesivos congelamientos tarifarios de las leyes de emergencia.",
+          "Derogación de beneficios hidrocarburíferos: Elimina regímenes especiales de acceso a divisas (RADPIP y RADPIGN) y promoción de inversiones (Decreto N° 929/2013 y artículos de la Ley N° 27.007) creados en etapas previas para el sector de hidrocarburos, argumentando que el Estado no puede continuar sosteniéndolos y que las nuevas reformas legislativas ya brindan un marco de incentivo adecuado."
+        ],
+        "resumen_expediente": [
+          "Capítulo I - Modificaciones al Régimen de Zona Fría: Modifica la base de cálculo de las tarifas diferenciales para que se aplique exclusivamente sobre el precio del gas en boca de pozo (PIST), excluyendo transporte y distribución. Establece que, para las zonas de ampliación territorial de la Ley N° 27.637, el subsidio deje de ser universal y se focalice socioeconómicamente mediante el régimen de Subsidios Energéticos Focalizados (SEF) para hogares con ingresos iguales o menores a 3 Canastas Básicas Totales (CBT).",
+          "Capítulo II - Saneamiento de Deudas en el MEM: Diseña un mecanismo para determinar las diferencias de ingresos que distribuidoras y transportistas (nacionales y provinciales/municipales) dejaron de percibir por congelamientos regulatorios, disponiendo que se apliquen como créditos para cancelar sus deudas pendientes de compra de energía con CAMMESA. Además, introduce el traslado automático de costos del MEM a las tarifas de los distribuidores.",
+          "Capítulo III - Fuentes Renovables de Energía: Prorroga desde el 31 de diciembre de 2025 y hasta el 31 de diciembre de 2045 el régimen de exención de gravámenes previsto en el artículo 17 de la Ley N° 27.191 para la producción de energía eléctrica renovable.",
+          "Capítulo IV - Gas Natural: Modifica la Ley N° 24.076 para asegurar el traslado automático a las tarifas de los distribuidores de los costos de adquisición de gas resultantes de procesos competitivos.",
+          "Capítulo V - Hidrocarburos: Deroga formalmente el Decreto N° 277/2022 (acceso a divisas), el Decreto N° 929/2013 y los artículos 19 al 22 de la Ley N° 27.007 (regímenes de promoción de inversiones), resguardando los derechos ya adquiridos por proyectos previamente aprobados."
+        ],
+        "reunion_comision": {
+          "fecha": "13/05/2026",
+          "comision": "Plenario de las Comisiones de Energía y Combustibles y de Presupuesto y Hacienda de la HCDN",
+          "resumen": "Se emitió el dictamen de mayoría con modificaciones sobre el Mensaje N° 137/2026 del Poder Ejecutivo, además de dos dictámenes de minoría por parte de la oposición.",
+          "posturas_principales": [
+            "Bloque Oficialista y aliados (Dictamen de Mayoría): Sostuvieron que el sistema energético arrastraba una quiebra sistémica y subsidios distorsivos mal asignados (p. ej., a countries o consumos suntuarios). Argumentaron la necesidad de sincerar costos, dotar de autosuficiencia fiscal al MEM y garantizar que la asistencia llegue estrictamente a los hogares económicamente vulnerables.",
+            "Bloque Unión por la Patria (Dictamen de Minoría): Rechazaron por completo la reforma de la Zona Fría, calificándola de recorte federal regresivo que expone a los usuarios a tarifas dolarizadas e impagables un mes antes del invierno. Propusieron mantener la Zona Fría actual, crear un régimen diferencial de \"Equidad Bioclimática\" para zonas bioambientales cálidas y muy cálidas (el norte del país), y obligar al PEN a presentar un Plan Federal de Infraestructura Energética.",
+            "Bloques intermedios - HCF/UCR/independientes (Dictamen de Minoría): Coincidieron en la necesidad de ordenar el sistema energético, pero rechazaron la modificación de la Zona Fría por considerar que cambiar la base de cálculo vacía económicamente la ley y perjudica a la clase media trabajadora. Propusieron un régimen especial de créditos por cumplimiento para las distribuidoras provinciales y cooperativas del interior que mantuvieron sus pagos al día con CAMMESA, y la preservación expresa de la facultad municipal de incluir la tasa de alumbrado público en la factura eléctrica."
+          ],
+          "camara": "Diputados"
+        },
+        "orden_del_dia_detalle": {
+          "numero": "84/2026",
+          "firmantes": [
+            "Dictamen de Mayoría: Facundo Correa Llano, Bertie Benegas Lynch, Daiana Fernández Molero, Julio Moreno Ovalle, Sabrina Ajmechet, Lisandro Almirón, Alberto Arrúa, Mónica Becerra, Fernando de Andreis, Álvaro García, Silvana Giudici, Alfredo Gonzales, Álvaro González, Diego Hartfield, Oscar A. Herrera Ahuad, Gerardo Huesen, Andrés A. Laumann, Lilia Lemoine, Andrés Leone, Lorena Macyszyn, Álvaro Martínez, Julieta Metral Asensio, Francisco Morchio, Sebastián Pareja, Marcos Patiño Brizuela, Adrián Ravier, Gastón Riesco, Gonzalo Roca, Laura E. Rodríguez Machado, Javier Sánchez Wrba, Santiago Santurio, Aníbal Tortoriello, César Treffinger, Hernán Urien, Lorena Villaverde, Gino Visconti, Oscar Zago y Carlos R. Zapata (indica que el legislador integra dos comisiones).",
+            "Firmaron el Dictamen de Mayoría en Disidencia: Elia M. Fernández, Lisandro Nieri, Nancy V. Picón Martínez y Pamela F. Verasay.",
+            "Dictamen de Minoría (Unión por la Patria): Juan P. Luque, Cristian Andino, Jorge N. Araujo Hernández, Gustavo Bordet, Sergio G. Casas, Carlos D. Castagneto, María G. de la Rosa, Emir Félix, Andrea Freites, José Glinski, Itai Hagman, Ana M. Ianni, Marcelo Mango, Guillermo Michel, Jorge Mukdise, Blanca I. Osuna, Claudia M. Palladino, Gabriela Pedrali, Luciana Potenza, Ariel Rauschenberger, Agustín O. Rossi, Sabrina Selva, Adriana C. Serquis, Julia Strada, Pablo Todero, Victoria Tolosa Paz y Pablo R. Yedlin (indica que el legislador integra dos comisiones).",
+            "Dictamen de Minoría (Bloques intermedios): Nicolás Massot, José Nuñez, Jorge Rizzotti y María I. Zigarán."
+          ],
+          "diferencias_clave": [
+            "Inclusión taxativa de los requisitos de vulnerabilidad (SEF) en la ley: El dictamen de mayoría e incorporado en la sanción incluyó de manera explícita en el artículo 75 (Capítulo I) los criterios detallados de inclusión del régimen SEF para mantener el subsidio de Zona Fría (ingresos inferiores o iguales a 3 CBT, beneficiarios de ReNaBaP, veteranos de Malvinas y personas con CUD evaluados por la Secretaría de Energía). En el proyecto del PEN original, esto se delegaba de manera genérica al régimen de Subsidios Energéticos Focalizados y a la posterior reglamentación de la Secretaría de Energía.",
+            "Cláusula de protección de tasas municipales (Alumbrado Público): El dictamen de mayoría y la redacción final agregaron una salvedad clave al artículo 5 (que sustituye el artículo 40 de la Ley N° 24.065), determinando que la prohibición de incorporar conceptos locales en la factura de luz rige \"sin perjuicio de las tasas, contribuciones y cargos por servicios públicos provinciales o municipales...\", mencionando específicamente el alumbrado público. El proyecto original del PEN prohibía de forma estricta cualquier tributo de orden local o cargo ajeno, lo que ponía en riesgo el financiamiento municipal del servicio eléctrico público.",
+            "Incorporación del Artículo 11 sobre vigencia de excepciones: Se incorporó un artículo específico para establecer que las excepciones al recargo del gas (para exportación y regasificación de GNL importado) entren en vigor inmediatamente tras la publicación en el Boletín Oficial, desplazando el orden del articulado final."
+          ],
+          "camara": "Diputados"
+        },
+        "sancion_detalle": {
+          "link_taquigrafica": null,
+          "posturas_principales": [
+            "Oficialismo y bloques aliados (La Libertad Avanza, PRO, Producción y Trabajo): Sostuvieron que el proyecto desarma una \"bomba de deuda\" y un populismo de \"subsidios cruzados\" que beneficiaba incluso a los sectores más ricos. Remarcaron que el 95% del beneficio se compensa para los sectores vulnerables, que la Patagonia profunda mantiene intactos sus derechos y que estas medidas permiten normalizar las cuentas fiscales y potenciar el récord productivo de YPF y Vaca Muerta.",
+            "Bloque Unión por la Patria y Frente de Izquierda: Denunciaron la aprobación de un \"tarifazo salvaje\" que golpeará a más de 3.400.000 familias e incrementará las facturas entre un 30% y un 80% en pleno invierno por la quita del subsidio al transporte y la distribución de gas. Criticaron un doble estándar inadmisible (\"motosierra boba frente a empresas\") que condona deudas multimillonarias de 1.800 millones de dólares a distribuidoras privadas del AMBA (Edenor y Edesur) y otorga exenciones totales bajo el RIGI hasta el año 2045, mientras se recorta el financiamiento de universidades, medicamentos de PAMI y pensiones por discapacidad.",
+            "Bloque Hacemos Coalición Federal y PJ de Córdoba: Alertaron sobre la regresividad del sistema SEF al castigar a los adultos mayores con barreras digitales de inscripción. Criticaron la profunda asimetría centralista de la ley (Artículo 4), que regulariza y perdona deudas a empresas privadas incumplidoras del AMBA pero no prevé herramientas de créditos automáticos ni premios reales de inversión para las cooperativas y distribuidoras provinciales cumplidoras del interior del país (como EPEC en Córdoba)."
+          ],
+          "camara": "Diputados"
+        }
+      }
+    },
+    {
+      "expediente": "CD-1/26",
+      "origen": "CD",
+      "autor": "Poder Ejecutivo Nacional",
+      "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/1.26/CD/PL",
+      "titulo": "Ley de Hojarasca: reforma para la desregulación y simplificación normativa",
+      "nombre_corto": "Hojarasca",
+      "caratula_original": "PROYECTO DE LEY EN REVISION QUE DEROGA LA LEGISLACION OBSOLETA - \" LEY DE HOJARASCA\" -.",
+      "categoria": "con_od",
+      "badge_camara": "1/2 sanción HCDN",
+      "camara_actual": "Senado",
+      "tramite": {
+        "ingreso": "21/05/2026",
+        "comisiones": [
+          {
+            "comision": "DE ASUNTOS CONSTITUCIONALES",
+            "fecha_ingreso": "22/05/2026",
+            "fecha_egreso": "17/06/2026"
+          },
+          {
+            "comision": "DE LEGISLACIÓN GENERAL",
+            "fecha_ingreso": "22/05/2026",
+            "fecha_egreso": "17/06/2026"
+          }
+        ],
+        "fecha_ingreso_dictamen": [
+          "17/06/2026"
+        ],
+        "orden_del_dia": {
+          "numero": "135",
+          "anio": "2026"
+        },
+        "sancion_fecha": null
+      },
+      "nota": {
+        "resumen_mensaje_pen": [
+          "El Poder Ejecutivo Nacional envió el proyecto de ley (Mensaje 21/26) bajo la denominación pública de \"Ley de Hojarasca\", impulsado formalmente como parte de un proceso de desregulación y desburocratización del Estado.",
+          "El objetivo central del mensaje es la simplificación y depuración del sistema legal argentino, promoviendo la derogación de decenas de leyes nacionales vigentes que se consideran obsoletas, inútiles, que han caído en desuso (desuetudo) o que han sido superadas por regulaciones posteriores y el avance tecnológico.",
+          "Se fundamenta conceptualmente en la premisa liberal de que \"todo lo que no está prohibido está permitido\", buscando invertir la lógica reguladora del pasado para devolver libertades individuales y suprimir privilegios políticos."
+        ],
+        "resumen_expediente": [
+          "Derogación de leyes obsoletas (Artículo 1°): Dispone la derogación total de un listado de leyes anacrónicas, tales como la inhabilitación por aplicar la pena de azotes de 1864, premios por descubrir minas de carbón de 1870, la obligatoriedad del carné de mochilero de 1974 y la autorización de la televisión a color de 1978 3, 13-18.",
+          "Transferencia de Tecnología (Artículos 3° y 4°): Modifica la Ley 22.426, simplificando sustancialmente el registro de los actos jurídicos de transferencia tecnológica, que ahora se realizarán a nivel puramente informativo, por vía digital y con carácter de declaración jurada.",
+          "Federación Argentina de Municipios (FAM) (Artículo 5°): Modifica el artículo 11 de la Ley 24.807 para prohibir expresamente que el patrimonio de la Federación sea financiado de forma exclusiva por el Estado nacional, entidades autárquicas o empresas públicas, debiendo sostenerse mediante cuotas societarias, donaciones y aportes privados.",
+          "Cartografía Oficial (Artículos 6° y 7°): Modifica la Ley de la Carta (Ley 22.963), limitando la obligatoriedad de que las representaciones cartográficas del territorio nacional se ajusten de manera exclusiva a los lineamientos del Instituto Geográfico Nacional únicamente a aquellas obras destinadas a la enseñanza y fines educativos.",
+          "Destino de Partidas (Artículo 8°): Estipula que las partidas presupuestarias remanentes que hubieran estado asignadas a la ejecución de las normas derogadas o modificadas por la presente ley sean transferidas de forma directa al Tesoro de la Nación."
+        ],
+        "reunion_comision": {
+          "fecha": "17/06/2026",
+          "comision": "Plenario de las Comisiones de Asuntos Constitucionales y de Legislación General (Senado)",
+          "resumen": "Reunión plenaria en el Salón Arturo Illia del Senado para debatir el proyecto de ley CD-1/26 venido en revisión. El debate concluyó con la firma de un dictamen de mayoría aconsejando la aprobación del texto.",
+          "posturas_principales": [
+            "La Libertad Avanza y PRO (Oficialismo): Defienden el proyecto como un ejercicio necesario de depuración normativa para agilizar la economía digital y tecnológica, eliminar burocracia inútil y acabar con privilegios legislativos históricos.",
+            "Unión por la Patria y Convicción Federal (Oposición): Denuncian que detrás de la supuesta \"limpieza\" se esconde un \"caballo de Troya\" legislativo que deroga regulaciones estratégicas vigentes, tales como la producción pública de medicamentos (Leyes 26.688 y 27.113), la protección a industrias locales (apicultura y cunicultura), los límites al capital extranjero en medios (Ley 25.750) y la soberanía sobre la cartografía nacional. Exigieron la conformación de la Comisión de Digesto Jurídico para dar un debate serio y pormenorizado."
+          ],
+          "camara": "Senado"
+        },
+        "orden_del_dia_detalle": {
+          "numero": "135/2026 (Senado) y 25/2026 (Diputados)",
+          "firmantes": [
+            "Cámara de Diputados (O.D. Nº 25):",
+            "En mayoría: Dictamen de mayoría favorable con modificaciones firmado por el diputado Nicolás Mayoraz.",
+            "En minoría: Dictamen de minoría II aconsejando sanción con modificaciones firmado por los diputados Sergio E. Capozzi, Mariela Coletta y Pablo Farías. Dictamen de minoría III firmado por el diputado Diego A. Giuliano para salvaguardar herramientas activas.",
+            "Observaciones: Presentadas formalmente por los diputados Romina Del Plá y Néstor Pitrola.",
+            "Cámara de Senadores (O.D. Nº 135): Firmado en mayoría por los senadores pertenecientes al oficialismo (La Libertad Avanza) y bloques aliados, quienes procedieron a la firma tras el plenario de comisiones."
+          ],
+          "diferencias_clave": [
+            "Exclusión de la Ley 11.380 (Cooperativas): Originalmente contemplada para su derogación en el proyecto enviado por el Poder Ejecutivo, fue excluida por consenso unánime en el ámbito de comisión para evitar avanzar contra el fomento y financiamiento de las cooperativas de trabajo del país.",
+            "Exclusión de las Leyes de Privilegio Legislativo: Durante el debate en Diputados, se retiraron del listado de derogación la Ley 20.959 (credenciales de legisladores con beneficios de libre tránsito y estacionamiento) y la Ley 20.984 (aportes estatales para el sostenimiento del Círculo de Legisladores de la Nación), que originalmente se buscaban dar de baja."
+          ],
+          "camara": "Diputados"
+        },
+        "sancion_detalle": {
+          "link_taquigrafica": null,
+          "posturas_principales": [
+            "La Libertad Avanza: A favor. Sostienen que la ley libera fuerzas productivas al desmontar el andamiaje regulatorio e intervencionista del Estado que traba el desarrollo de los argentinos.",
+            "PRO: A favor. Acompañan la agenda de desregulación económica para quitar del ordenamiento legal normas ridículas e inaplicables, devolviendo libertades de mercado.",
+            "Unión por la Patria: En contra. Rechazan de plano la derogación por considerarla una cortina de humo que esconde la destrucción de políticas sanitarias clave (como la producción nacional de medicamentos) y el desfinanciamiento de economías regionales.",
+            "Frente de Izquierda (PTS - PO): En contra. Califican el proyecto como una gran maniobra legislativa que beneficia al capital financiero a expensas de la explotación de los trabajadores y la soberanía nacional.",
+            "Provincias Unidas: Postura dividida. Se manifestaron votos a favor en pos de la simplificación regulatoria, pero también abstenciones y rechazos debido al desfinanciamiento de los recursos de las provincias y economías locales (como la apicultura y la cunicultura).",
+            "Resultado de la votación nominal (Cámara de Diputados):",
+            "A favor: 138 votos.",
+            "En contra: 96 votos.",
+            "Abstenciones: 9 votos.",
+            "Ausentes: 13 diputados.",
+            "Presidente: 1 (Martín Menem, sin emisión de voto por su rol institucional como Presidente de la Cámara)."
+          ],
+          "camara": "Diputados"
+        }
+      }
+    },
+    {
+      "expediente": "7-PE/26 (Diputados)",
+      "origen": null,
+      "autor": "Poder Ejecutivo Nacional",
+      "url": null,
+      "titulo": "Reforma de la Carta Orgánica del Banco Central",
+      "nombre_corto": "Reforma carta orgánica BCRA",
+      "caratula_original": null,
+      "categoria": "en_comision",
+      "badge_camara": null,
+      "camara_actual": "Diputados",
+      "tramite": {
+        "ingreso": null,
+        "comisiones": [],
+        "fecha_ingreso_dictamen": [],
+        "orden_del_dia": null,
+        "sancion_fecha": null
+      },
+      "nota": {
+        "resumen_mensaje_pen": [
+          "El Poder Ejecutivo Nacional, mediante el Mensaje Nº 226/2026 firmado por el presidente Javier Milei, el ministro Luis Andrés Caputo y Diego César Santilli, somete a consideración legislativa un Proyecto de Ley para reformar la Carta Orgánica del Banco Central (Ley N° 24.144) y derogar artículos específicos de las Leyes N° 23.928 y N° 24.156 2-4.",
+          "El propósito fundamental del mensaje es dotar a la institución de un régimen legal que garantice su estricta independencia funcional y financiera, consagre la preservación del valor de la moneda como su mandato único, y clausure definitivamente los canales de emisión monetaria destinados a financiar el déficit fiscal del sector público."
+        ],
+        "resumen_expediente": [
+          "Mandato único y restricciones de financiamiento: Sustituye el artículo 3° de la Carta Orgánica para establecer la preservación del valor de la moneda como misión única, prohíbe de forma absoluta otorgar adelantos transitorios o créditos al sector público en todos sus niveles (nacional, provincial, CABA y municipal) e impide la adquisición directa de títulos públicos en el mercado primario.",
+          "Gobernanza, saneamiento patrimonial y utilidades: Modifica el artículo 9° fijando causales taxativas de remoción del directorio bajo aprobación del Congreso por mayoría de 2/3 de los miembros presentes; restringe la distribución de utilidades únicamente a las líquidas y realizadas (excluyendo ganancias contables cambiarias o por tenencias de oro); y prevé un esquema transitorio donde los resultados de valuación se destinen exclusivamente a extinguir el pasivo de letras intransferibles y adelantos vigentes."
+        ],
+        "reunion_comision": {
+          "fecha": "05/08/2026",
+          "comision": "Comisiones de Finanzas y de Presupuesto y Hacienda de la Honorable Cámara de Diputados de la Nación",
+          "resumen": "Sesión informativa conjunta donde las máximas autoridades del Banco Central expusieron las metas macroeconómicas y patrimoniales del proyecto y respondieron las inquietudes de los legisladores.",
+          "posturas_principales": [
+            "Autoridades del Banco Central (Santiago Bausili y Vladimir Werning): Argumentan que la inflación persistente es un fenómeno de origen fiscal en donde el BCRA actúa como cómplice por falta de restricciones institucionales reales. Defienden que aislar el manejo monetario del Tesoro, fijar un mandato claro y transparentar el régimen contable de resultados son las únicas herramientas probadas para recuperar de manera estable la moneda nacional.",
+            "Bloques oficialistas y aliados (La Libertad Avanza y PRO): Respaldan firmemente la reforma institucional por considerarla prioritaria para limitar de forma legal la emisión discrecional sin respaldo y el señoreaje. Sostienen que la inflación es el impuesto más distorsivo y confiscatorio que afecta a la sociedad, por lo que resulta indispensable autolimitar las herramientas del Estado para dar previsibilidad y seguridad jurídica.",
+            "Bloque Unión por la Patria y Frente de Izquierda: Rechazan de manera tajante el proyecto por considerarlo \"irracional, dogmático y recesivo\" 38, 39. Argumentan que la inflación es un fenómeno multicausal y que el mandato dual (incluyendo empleo y fomento) es la norma en los principales bancos centrales del mundo (como la Fed o Israel). Critican la eliminación del crédito productivo subsidiado para pymes, la posible vulnerabilidad o embargo del oro nacional transferido al exterior bajo las nuevas garantías, y denuncian que la derogación del informe de sostenibilidad de deuda externa (art. 61 de la Ley 24.156) busca deslindar responsabilidades penales de los funcionarios.",
+            "Otros bloques de la oposición colaborativa (CC-ARI y UCR): Coinciden en el valor de la estabilidad monetaria y el mandato único, pero proponen modificaciones tales como unificar las mayorías exigidas para la designación y remoción de autoridades, fijar límites temporales en el Senado para el tratamiento de pliegos, implementar mesas de coordinación formalizadas entre el BCRA y el Ministerio de Economía, y corregir de manera prolija las referencias legislativas en leyes presupuestarias vigentes."
+          ],
+          "camara": "Diputados"
+        },
+        "orden_del_dia_detalle": null,
+        "sancion_detalle": null
+      },
+      "sin_datos_de_planilla": true
+    },
+    {
+      "expediente": "Mensaje PEN N° 178/26 (Diputados)",
+      "origen": null,
+      "autor": "Poder Ejecutivo Nacional",
+      "url": null,
+      "titulo": "Régimen de Gestión de Intereses (Ley de Lobby)",
+      "nombre_corto": "Lobby",
+      "caratula_original": null,
+      "categoria": "en_comision",
+      "badge_camara": null,
+      "camara_actual": "Diputados",
+      "tramite": {
+        "ingreso": null,
+        "comisiones": [],
+        "fecha_ingreso_dictamen": [],
+        "orden_del_dia": null,
+        "sancion_fecha": null
+      },
+      "nota": {
+        "resumen_mensaje_pen": [
+          "Propone un Régimen de Gestión de Intereses para regular las interacciones entre actores públicos y privados en la toma de decisiones estatales, argumentando que un Estado más transparente limita el poder, expone su ejercicio al control y reduce la arbitrariedad y los privilegios.",
+          "Se fundamenta en principios de la Constitución Nacional, tales como la forma republicana de gobierno (art. 1), el derecho de peticionar ante las autoridades (art. 14), la igualdad ante la ley (art. 16), la razonabilidad regulatoria (art. 28) y el derecho de acceso a la información pública (art. 75 inc. 22).",
+          "Señala que la normativa actual en la materia, basada en el Decreto N° 1172/03, presenta severas limitaciones por su alcance restringido y su mero carácter reglamentario, lo que genera un vacío normativo sistemático tanto en el Poder Ejecutivo Nacional como en el Poder Legislativo Nacional."
+        ],
+        "resumen_expediente": [
+          "Objeto y Definiciones: Regula los requisitos y procedimientos de las gestiones de intereses (lobby) destinadas a influir en decisiones o procesos decisorios del Poder Ejecutivo y del Poder Legislativo Nacional. Define de manera sumamente amplia la gestión de intereses (toda actividad de promoción, intermediación, asesoramiento o incidencia, sea onerosa o gratuita, individual o colectiva) y excluye las comunicaciones protocolares, el derecho de petición individual directo y los mecanismos formales de consulta pública regulados por normas específicas.",
+          "Registros y Reportes Obligatorios: Crea un Registro Público de Gestores de Intereses en el ámbito del Ejecutivo, de inscripción previa y obligatoria para poder interactuar con los funcionarios. Asimismo, crea Registros Públicos de Gestión de Intereses en el Ejecutivo y en ambas Cámaras del Congreso para que los funcionarios (sujetos obligados) asienten detalladamente cada contacto mantenido en un plazo de 5 días hábiles. Los gestores privados deberán presentar reportes de actividad con periodicidad trimestral.",
+          "Régimen de Incompatibilidades y Exfuncionarios: Prohíbe a los funcionarios en ejercicio actuar como gestores de intereses. Establece una inhabilitación temporal posterior (período de enfriamiento) de 24 meses desde el cese de funciones para que los exfuncionarios no puedan ejercer actividades de lobby ante el organismo donde se desempeñaron o en los asuntos donde intervinieron.",
+          "Intereses Extranjeros: Obliga a los gestores de intereses que actúen por cuenta, control o financiamiento de un principal extranjero (estados, partidos, empresas o personas del exterior) a declarar esta condición especial, presentar documentación respaldatoria adicional y remitir informes especiales a requerimiento de la autoridad.",
+          "Sanciones Administrativas y Penales: Introduce un régimen de infracciones y sanciones administrativas que van desde el apercibimiento, multas (de 5 a 500 salarios mínimos vitales y móviles - SMVM), la suspensión del registro o la inhabilitación definitiva. Adicionalmente, crea cuatro tipos penales específicos con penas de prisión de 6 meses a 2 años por realizar gestiones de intereses sin estar inscripto (gestión clandestina) o presentar declaraciones sustancialmente falsas, de 6 meses a 3 años por representación clandestina de intereses extranjeros, y multas severas por obstrucción dolosa de la fiscalización."
+        ],
+        "reunion_comision": {
+          "fecha": "03/06/2026 y 10/06/2026",
+          "comision": "Comisiones Conjuntas de Asuntos Constitucionales y de Legislación General de la Cámara de Diputados, 35fecha de reunión: 03/06/2026 y 10/06/2026",
+          "resumen": "El 3 de junio de 2026 expusieron los diputados autores de proyectos de ley alternativos y el representante del PEN, mientras que el 10 de junio se realizó una sesión informativa con exposiciones críticas de organizaciones de la sociedad civil, sindicatos, colegios profesionales y cámaras empresariales.",
+          "posturas_principales": [
+            "Poder Ejecutivo Nacional (Dr. Diego Marías): Defendió el proyecto del Ejecutivo como una iniciativa robusta, transversal y necesaria para formalizar y transparentar el lobby en la Argentina, en línea con los estándares internacionales de la OCDE. Justificó las sanciones penales para garantizar el cumplimiento y negó que la norma busque enfriar o demorar la interacción democrática, sosteniendo que la registración a través de medios digitales será rápida y accesible.",
+            "Diputados Opositores Dialoguistas y Autores de Proyectos Alternativos:",
+            "Dip. Miguel Ángel Picheto: Defendió su proyecto alternativo de 15 artículos 44, 45. Abogó por llamar al régimen directamente \"Ley de Lobby\" 45, propuso catalogar a los lobistas como Personas Políticamente Expuestas (PEP) obligándolos a presentar declaraciones juradas, y extender las incompatibilidades al grupo familiar de los funcionarios.",
+            "Dip. Karina Banfi: Cuestionó que la propuesta del PEN sobrecarga al ciudadano en lugar de regular a la administración pública. Rechazó de plano la incorporación de sanciones penales para faltas administrativas y presentó modificaciones para la Ley de Acceso a la Información Pública.",
+            "Dip. Maximiliano Ferraro: Defendió el proyecto de J. M. López, abogando por un régimen simplificado y preciso que preserve la libertad de asociación, de prensa y de petición sin burocratizar el acceso. Propuso a la Oficina de Acceso a la Información Pública como autoridad de aplicación.",
+            "Dip. Óscar Agost Carreño: Consideró el proyecto oficial \"excesivamente regularista\" 55. Propuso un registro gratuito digital y un código de conducta articulado por una agencia autónoma que diferencie los tipos de lobby. Sugirió regular los nuevos canales de influencia como redes sociales, trolls y bots.",
+            "Dip. Galmarini: Presentó un proyecto de reforma integral de ética pública (131 artículos) que propone la creación del \"Instituto Nacional de Integridad y Ética Pública\" autónomo, endógeno y con facultades de alerta temprana para funcionarios, proveedores y contratistas.",
+            "Dip. Propato: Exigió discutir los conflictos de intereses de los funcionarios que provienen de corporaciones privadas y abogó por transparentar licitaciones estratégicas de infraestructura como la hidrovía o las centrales nucleares.",
+            "Dip. Caposi: Adelantó el acompañamiento en general del bloque PRO pero con disidencia parcial, buscando limitar el alcance al lobby profesionalizado, eliminar las penas de prisión para particulares y radicar el control en comisiones parlamentarias bicamerales.",
+            "Bloques de Oposición y de Izquierda (Rechazo al Proyecto):",
+            "Dip. Germán Martínez (Unión por la Patria): Sostuvo que el proyecto aísla a la política, limita la representación directa de los legisladores con su pueblo y fomenta una terciarización profesionalizada del lobby. Denunció que el oficialismo pretende regular la relación cívica mientras se debaten opacamente proyectos como el \"superrigi\" 74.",
+            "Dip. Diego Juliano (Unión por la Patria): Calificó el proyecto de un \"blanqueo de presiones\" que privatiza el acceso al poder y advirtió que el paquete penal del PEN funciona como una ley penal más benigna que reduce de forma retroactiva las penas del Código Penal vigentes para delitos contra la administración pública.",
+            "Dip. Romina del Pla y Dip. Nicolás del Caño (Frente de Izquierda): Rechazaron de plano el proyecto, denunciando que busca legalizar y estatizar a cielo abierto el soborno de las corporaciones capitalistas, mientras criminaliza con penas de prisión la protesta social y los reclamos colectivos populares.",
+            "Organizaciones de la Sociedad Civil, Derechos Humanos, Ambientales y Sociales:",
+            "Poder Ciudadano, Directorio Legislativo, ACIJ, Amnistía Internacional y CELS: Coincidieron en que la ley es un instrumento hostil e inconstitucional que busca \"disciplinar y vigilar\" a la sociedad civil en lugar de transparentar el poder. Cuestionaron que equipare la defensa de derechos humanos o el reclamo de familiares de víctimas con el lobby corporativo comercial, que la inscripción previa funcione como un \"permiso estatal para peticionar\" 90-92, y denunciaron la asimetría penal de las penas de prisión para particulares frente a simples faltas para los funcionarios.",
+            "FARN, Círculo de Políticas Ambientales y ANDES: Señalaron que el proyecto viola el Acuerdo de Escasú al obstaculizar y restringir de forma regresiva la participación cívica en materia de recursos naturales y cambio climático, generando un grave \"efecto disuasorio\" (chilling effect). Balino alertó sobre el impacto desigual del proyecto en el NOA, donde silenciará a las comunidades campesinas e indígenas frente a los intereses fácticos del extractivismo del litio y de la minería.",
+            "Raci y FAIE (Fep hora de obrar): Denunciaron el capítulo de \"interés extranjero\" como una copia de marcos autoritarios represivos de la región (Nicaragua, El Salvador) y el mundo (Rusia, Hungría) que estigmatiza y criminaliza la cooperación internacional filantrópica y de derechos humanos.",
+            "Red de Encuentro, Ready y Fundación Huésped: Advirtieron que la pesada carga burocrática y los reportes trimestrales son imposibles de cumplir para ONGs territoriales de base o de personas con discapacidad que carecen de personal rentado o equipos legales. Cahn advirtió que el temor de recibir causas penales por errores de papeleo empujará al silencio a médicos y científicos, perjudicando las alertas sanitarias y la salud pública de la población. González denunció que la ley fue redactada ignorando la consulta estrecha obligatoria exigida por la Convención con rango constitucional.",
+            "Innocence Project y Fundación Vía Libre: Cuestionaron la filosofía que impone controles sobre los ciudadanos y no sobre el Estado. Busaniche alertó sobre la creación de una masiva base de datos de actividades y financiamiento cívico que, bajo el DNU 941/25, deberá ser transferida de forma directa y sin control judicial a los servicios de inteligencia (SIDE).",
+            "Fundación Barbechando y Civic House: Propusieron que la ley establezca umbrales mínimos de frecuencia, dedicación y compensación económica para regular exclusivamente el lobby profesionalizado remunerado (modelo de EE.UU.), y que el registro funcione a posteriori.",
+            "Cámaras Empresarias y de Relaciones Públicas:",
+            "AmCham y Unión Industrial Argentina (UIA): Respaldaron la transparencia pero reclamaron excluir las comunicaciones derivadas de relaciones contractuales, las transacciones ordinarias o la representación gremial sectorial. Demandaron incorporar la figura de \"beneficiario colectivo\" 122, 123 y suprimir las sanciones penales y la inhabilitación definitiva para el ejercicio del derecho constitucional de petición.",
+            "Consejo Profesional de RR.PP. y Círculo Dircom: Sostuvieron que el plazo administrativo de 10 días para aprobar la inscripción suspende de hecho el derecho constitucional de petición, por lo que propusieron una aprobación automática por silencio positivo. Solicitaron reportes anuales (en vez de trimestrales) 128 y equiparar de forma simétrica las penalidades para gestores y funcionarios públicos.",
+            "Colegios Profesionales, Periodistas y Sindicatos:",
+            "Colegio Público de la Abogacía de la Capital Federal (CPACF) y Colegio de Abogados de la Ciudad de Buenos Aires: Sostuvieron que el proyecto colisiona de manera directa con la Ley 23.187 de ejercicio profesional al obligar a revelar la identidad de los clientes y los temas tratados en asesorías técnicas, vulnerando de manera flagrante el secreto profesional y el derecho de defensa. Reclamaron reformas puntuales para excluir el patrocinio y asesoramiento jurídico del alcance del lobby.",
+            "Sindicato de Prensa de Buenos Aires (SiPreBA) y FOPEA: Denunciaron que la ambigüedad en el artículo 4 (que excluye al periodismo \"siempre que no tenga por objeto influir en una decisión\") convierte la ley en un \"cepo\" y una \"herramienta de palo\" susceptible de uso selectivo contra el periodismo de investigación, vulnerando además el secreto profesional de las fuentes periodísticas."
+          ],
+          "camara": "Diputados"
+        },
+        "orden_del_dia_detalle": null,
+        "sancion_detalle": null
+      },
+      "sin_datos_de_planilla": true
+    },
+    {
+      "expediente": "Mensaje PEN N° 223/26 (Diputados)",
+      "origen": null,
+      "autor": "Poder Ejecutivo Nacional",
+      "url": null,
+      "titulo": "Simplificación tributaria y actualización del régimen de sanciones laborales (Inocencia Fiscal 2)",
+      "nombre_corto": "Inocencia fiscal",
+      "caratula_original": null,
+      "categoria": "en_comision",
+      "badge_camara": null,
+      "camara_actual": "Diputados",
+      "tramite": {
+        "ingreso": null,
+        "comisiones": [],
+        "fecha_ingreso_dictamen": [],
+        "orden_del_dia": null,
+        "sancion_fecha": null
+      },
+      "nota": {
+        "resumen_mensaje_pen": [
+          "Propone modificaciones a las Leyes Nros. 11.683 (Procedimiento Tributario), 27.799 (Medidas Fiscales Paliativas y Relevantes, referidas a la modalidad simplificada de declaración jurada de Ganancias y prescripción) y 25.191 (Régimen del Trabajo Agrario - escala de multas).",
+          "Fundamenta la iniciativa en dos dimensiones: perfeccionar y dar mayor seguridad jurídica al régimen simplificado (equilibrando las garantías de los contribuyentes con la fiscalización) y actualizar el esquema sancionatorio agrario para devolverle su efecto disuasorio bajo principios de razonabilidad y proporcionalidad."
+        ],
+        "resumen_expediente": [
+          "Introduce mejoras estructurales en Ganancias, eliminando las trabas de ingresos y patrimonio para permitir que todas las personas humanas y sucesiones indivisas residentes en el país puedan optar por la modalidad simplificada (los grandes contribuyentes podrán adherir únicamente para la presentación y el pago, sin gozar de los beneficios adicionales del régimen).",
+          "Establece parámetros objetivos de fiscalización, redefiniendo la \"discrepancia significativa\" para impugnaciones de la Agencia de Recaudación y Control Aduanero (ARCA) en un incremento de impuesto determinado o reducción de quebrantos no inferior al 15%, sumando un umbral mínimo del 5% del Régimen Penal Tributario para evitar ajustes desproporcionados, limitando presunciones legales e implementando multas del RENATRE actualizadas anualmente por Unidad de Valor Adquisitivo (UVA)."
+        ],
+        "reunion_comision": {
+          "fecha": "05/08/2026",
+          "comision": "Plenario de las Comisiones de Presupuesto y Hacienda, y de Legislación Penal de la HCDN",
+          "resumen": "Reunión de carácter informativo en la que expusieron funcionarios de la Secretaría de Hacienda del Ministerio de Economía y un director del Banco Central, seguida por un debate con preguntas de los diputados.",
+          "posturas_principales": [
+            "Claudia Valestrini (Subsecretaria de Ingresos Públicos del Ministerio de Economía): Explicó que el proyecto busca dar certeza jurídica y simplificación técnica en la presentación de declaraciones de Ganancias utilizando información que ARCA ya posee, sin alterar la liquidación del gravamen ni anular las facultades de control del fisco. Justificó que los funcionarios públicos sigan incluidos porque la simplificación no los exime de detallar su evolución patrimonial obligatoria ante la Oficina Anticorrupción.",
+            "Juan José Imirizaldu (Director Nacional de Impuestos): Detalló los cambios técnicos comparativos, tales como la exigencia de residencia fiscal completa durante todo el período a partir de 2026 23, 24, el plazo límite al 31 de diciembre de 2027 para utilizar fondos no bancarizados 25 y la unificación de plazos (15 días hábiles desde la notificación) para que los contribuyentes presenten declaraciones rectificativas y cancelen saldos ante discrepancias sin perder los beneficios.",
+            "Martín Boutaut (Director del Banco Central de la República Argentina): Brindó un panorama macroeconómico y argumentó que para lograr un crecimiento sostenible a largo plazo se requiere aumentar las tasas de inversión. Señaló que este proyecto busca que los argentinos puedan formalizar de forma segura sus ahorros fuera del sistema financiero, estimados por el BCRA en un stock mínimo de USD 170.000 millones de dólares en billetes.",
+            "Bloque de Unión por la Patria (Carlos Castañeto, Ariel Rauschenberger, Agustín Ros, Sabrina Selva, Victoria Tolosa Paz, Germán Martínez): Cuestionó por qué se promueve una reforma sobre una ley sancionada hace solo unos meses, denunciando que beneficia a grandes estudios contables y grandes patrimonios en lugar de a pequeños contribuyentes. Criticaron la falta de exclusión de funcionarios públicos y de personas políticamente expuestas (mencionando las inconsistencias del exjefe de Gabinete Manuel Adorni) y alertaron sobre el debilitamiento de las presunciones de ARCA ante depósitos bancarios incompatibles.",
+            "Bloque del Frente de Izquierda (Miriam Bregman, Néstor Pitrola, Romina del Plá): Rechazó de plano la iniciativa calificándola de \"blanqueo permanente\" e \"impunidad para grandes evasores\" 41, 42. Cuestionó la baja de los plazos de prescripción de aportes a la seguridad social, el recorte de herramientas de fiscalización a inspectores de ARCA y la reducción de multas por empleo no registrado para las patronales del sector agrario.",
+            "Bloque de La Libertad Avanza (Nicolás Mayoraz): Respaldó el proyecto sosteniendo que le devuelve al contribuyente la presunción de inocencia constitucional frente a un sistema administrativo previo que trataba a todos de sospechosos por defecto. Aclaró que la simplificación tributaria no relaja en absoluto las reglas de prevención de lavado de activos de la UIF ni los controles del GAFI.",
+            "Bloque del PRO (Silvana Giudici): Apoyó la simplificación operativa señalando que el régimen utiliza datos preexistentes de ARCA. Remarcó que los funcionarios no podrán ocultar sus patrimonios ya que la Oficina Anticorrupción les exige declarar manualmente de forma desagregada toda su evolución patrimonial si optan por el sistema simplificado."
+          ],
+          "camara": "Diputados"
+        },
+        "orden_del_dia_detalle": null,
+        "sancion_detalle": null
+      },
+      "sin_datos_de_planilla": true
+    }
+  ]
+}

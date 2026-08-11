@@ -1,0 +1,1019 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+<meta charset="utf-8" />
+<title>Proyectos de ley pendientes — Senado</title>
+<style>
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-style: normal;
+  src: url(data:font/woff2;base64,__FONT400__) format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-style: normal;
+  src: url(data:font/woff2;base64,__FONT600__) format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-style: normal;
+  src: url(data:font/woff2;base64,__FONT700__) format("woff2");
+  font-display: swap;
+}
+
+:root {
+  --accent: #005ca9;
+  --accent-deep: #1555a3;
+  --accent-pale: #d6eefb;
+  --accent-light: #86d1f5;
+  --ink: #1b2733;
+  --ink-soft: #575756;
+  --line: #d8dadb;
+  --line-soft: #e9ebec;
+  --surface: #ffffff;
+  --surface-alt: #f4f8fb;
+  --surface-raised: #ffffff;
+  --shadow: 0 1px 2px rgba(20, 40, 60, 0.06), 0 8px 24px -12px rgba(20, 40, 60, 0.18);
+
+  --state-comision: #64748b;
+  --state-comision-bg: #eef1f4;
+  --state-od: #6d4fa8;
+  --state-od-bg: #ede7f6;
+  --state-sancion: #1e7f4f;
+  --state-sancion-bg: #e2f3ea;
+
+  --camara-hcdn: #b7791f;
+  --camara-hcdn-bg: #fbf1de;
+  --camara-hsn: #0f7a8c;
+  --camara-hsn-bg: #dff3f6;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --ink: #e8edf2;
+    --ink-soft: #a9b3bc;
+    --line: #33404b;
+    --line-soft: #29343e;
+    --surface: #121a22;
+    --surface-alt: #17212b;
+    --surface-raised: #1b2530;
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 12px 32px -12px rgba(0, 0, 0, 0.55);
+    --accent-pale: #14344a;
+    --accent-light: #3d87b8;
+
+    --state-comision: #9aa7b3;
+    --state-comision-bg: #232c34;
+    --state-od: #b39ce0;
+    --state-od-bg: #2a2140;
+    --state-sancion: #5fcd93;
+    --state-sancion-bg: #123423;
+
+    --camara-hcdn: #e0ab52;
+    --camara-hcdn-bg: #3a2f14;
+    --camara-hsn: #5fd0e3;
+    --camara-hsn-bg: #0f2e34;
+  }
+}
+:root[data-theme="dark"] {
+  --ink: #e8edf2;
+  --ink-soft: #a9b3bc;
+  --line: #33404b;
+  --line-soft: #29343e;
+  --surface: #121a22;
+  --surface-alt: #17212b;
+  --surface-raised: #1b2530;
+  --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 12px 32px -12px rgba(0, 0, 0, 0.55);
+  --accent-pale: #14344a;
+  --accent-light: #3d87b8;
+
+  --state-comision: #9aa7b3;
+  --state-comision-bg: #232c34;
+  --state-od: #b39ce0;
+  --state-od-bg: #2a2140;
+  --state-sancion: #5fcd93;
+  --state-sancion-bg: #123423;
+
+  --camara-hcdn: #e0ab52;
+  --camara-hcdn-bg: #3a2f14;
+  --camara-hsn: #5fd0e3;
+  --camara-hsn-bg: #0f2e34;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  background: var(--surface-alt);
+  color: var(--ink);
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-variant-numeric: tabular-nums;
+  min-height: 100vh;
+}
+a { color: inherit; }
+button, select, input { font-family: inherit; }
+
+.topbar {
+  background: linear-gradient(135deg, var(--accent) 0%, var(--accent-deep) 100%);
+  color: #fff;
+  padding: 22px clamp(16px, 4vw, 40px);
+}
+.topbar-inner {
+  max-width: 1180px;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 11px;
+  font-weight: 600;
+  opacity: 0.85;
+  margin: 0 0 6px;
+}
+.topbar h1 {
+  margin: 0;
+  font-size: clamp(20px, 2.6vw, 28px);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  text-wrap: balance;
+}
+.topbar .meta {
+  font-size: 13px;
+  opacity: 0.85;
+  margin-top: 6px;
+}
+.topbar .stat {
+  text-align: right;
+}
+.topbar .stat .n {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1;
+}
+.topbar .stat .l {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  opacity: 0.85;
+  margin-top: 4px;
+}
+
+.controls {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 18px clamp(16px, 4vw, 40px) 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.tabs {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 2px;
+}
+.tab {
+  appearance: none;
+  border: none;
+  background: none;
+  color: var(--ink-soft);
+  font-weight: 600;
+  font-size: 13.5px;
+  padding: 9px 14px 11px;
+  border-radius: 8px 8px 0 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  top: 1px;
+}
+.tab .count {
+  background: var(--surface-alt);
+  color: var(--ink-soft);
+  border-radius: 999px;
+  padding: 1px 8px;
+  font-size: 12px;
+  font-weight: 700;
+}
+.tab:hover { color: var(--ink); }
+.tab[aria-selected="true"] {
+  color: var(--accent-deep);
+  border-bottom: 2px solid var(--accent-deep);
+}
+.tab[aria-selected="true"] .count {
+  background: var(--accent-pale);
+  color: var(--accent-deep);
+}
+
+.filter-row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.search-wrap {
+  position: relative;
+  flex: 1 1 260px;
+  min-width: 200px;
+}
+.search-wrap svg { position: absolute; left: 12px; top: 50%; transform: translateY(-50%); opacity: 0.5; }
+input[type="search"] {
+  width: 100%;
+  padding: 10px 12px 10px 36px;
+  border-radius: 10px;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  color: var(--ink);
+  font-size: 14px;
+}
+input[type="search"]:focus, select:focus { outline: 2px solid var(--accent-light); outline-offset: 1px; }
+select {
+  padding: 10px 32px 10px 12px;
+  border-radius: 10px;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  color: var(--ink);
+  font-size: 14px;
+  appearance: none;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="6"><path d="M0 0l5 6 5-6z" fill="%23575756"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+}
+.btn-clear {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13.5px;
+  font-weight: 600;
+  color: var(--ink-soft);
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  background: none;
+  cursor: pointer;
+}
+.btn-clear:hover { color: var(--ink); background: var(--surface); border-color: var(--line); }
+
+.camara-toggle {
+  display: flex;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  overflow: hidden;
+  flex: none;
+}
+.camara-btn {
+  appearance: none;
+  border: none;
+  background: var(--surface);
+  color: var(--ink-soft);
+  font-size: 13.5px;
+  font-weight: 600;
+  padding: 10px 14px;
+  cursor: pointer;
+  border-left: 1px solid var(--line);
+}
+.camara-btn:first-child { border-left: none; }
+.camara-btn:hover { background: var(--surface-alt); color: var(--ink); }
+.camara-btn[aria-pressed="true"] { background: var(--accent-pale); color: var(--accent-deep); }
+
+main {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 20px clamp(16px, 4vw, 40px) 60px;
+}
+
+.result-count {
+  font-size: 12.5px;
+  color: var(--ink-soft);
+  margin: 4px 0 14px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 14px;
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--line-soft);
+  border-radius: 14px;
+  padding: 16px;
+  text-align: left;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  box-shadow: var(--shadow);
+  transition: transform 0.12s ease, border-color 0.12s ease;
+  font-size: 14px;
+  color: var(--ink);
+}
+.card:hover { transform: translateY(-2px); border-color: var(--accent-light); }
+.card:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.card-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.expediente {
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 0.02em;
+  color: var(--accent-deep);
+  white-space: nowrap;
+}
+.pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 3px 9px;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+.pill::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: currentColor; }
+.pill.comision { color: var(--state-comision); background: var(--state-comision-bg); }
+.pill.od { color: var(--state-od); background: var(--state-od-bg); }
+.pill.sancion { color: var(--state-sancion); background: var(--state-sancion-bg); }
+.pill.hcdn { color: var(--camara-hcdn); background: var(--camara-hcdn-bg); }
+.pill.hsn { color: var(--camara-hsn); background: var(--camara-hsn-bg); }
+
+.pill-row {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.titulo {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 1.35;
+  text-wrap: balance;
+}
+.card-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-top: auto;
+  font-size: 12px;
+  color: var(--ink-soft);
+}
+
+.empty-state {
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--ink-soft);
+}
+.empty-state svg { opacity: 0.5; margin-bottom: 12px; }
+
+/* Estadísticas */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 12px;
+  margin-bottom: 28px;
+}
+.stat-card {
+  background: var(--surface);
+  border: 1px solid var(--line-soft);
+  border-radius: 14px;
+  padding: 16px 18px;
+  box-shadow: var(--shadow);
+}
+.stat-card .stat-value {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--ink);
+}
+.stat-card .stat-label {
+  font-size: 12px;
+  color: var(--ink-soft);
+  margin-top: 4px;
+  font-weight: 600;
+}
+.stat-card.accent-comision .stat-value { color: var(--state-comision); }
+.stat-card.accent-od .stat-value { color: var(--state-od); }
+.stat-card.accent-sancion .stat-value { color: var(--state-sancion); }
+.stat-card.accent-hcdn .stat-value { color: var(--camara-hcdn); }
+.stat-card.accent-hsn .stat-value { color: var(--camara-hsn); }
+
+/* Detalle (página completa) */
+.detail-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13.5px;
+  font-weight: 600;
+  color: var(--accent-deep);
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 6px 0;
+  margin-bottom: 14px;
+}
+.detail-back:hover { text-decoration: underline; }
+
+.detail-head {
+  background: var(--surface);
+  border: 1px solid var(--line-soft);
+  border-radius: 16px;
+  padding: 22px 24px;
+  box-shadow: var(--shadow);
+  margin-bottom: 22px;
+}
+.detail-head .expediente { font-size: 14px; }
+.detail-head h1 {
+  margin: 8px 0 12px;
+  font-size: clamp(20px, 2.4vw, 26px);
+  font-weight: 700;
+  line-height: 1.3;
+  text-wrap: balance;
+  color: var(--ink);
+}
+.detail-head .pill-row { justify-content: flex-start; }
+
+.detail-actions {
+  margin-top: 16px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: var(--accent);
+  color: #fff;
+  font-weight: 600;
+  font-size: 13.5px;
+  padding: 10px 16px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.btn-primary:hover { background: var(--accent-deep); }
+
+.section {
+  background: var(--surface);
+  border: 1px solid var(--line-soft);
+  border-radius: 16px;
+  padding: 20px 24px;
+  box-shadow: var(--shadow);
+  margin-bottom: 16px;
+}
+.section h2 {
+  margin: 0 0 12px;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--accent-deep);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.section ul {
+  margin: 0;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.section li { line-height: 1.5; font-size: 14px; }
+.section .empty-note {
+  color: var(--ink-soft);
+  font-size: 13.5px;
+  font-style: italic;
+}
+.section .sub-label {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-weight: 700;
+  color: var(--ink-soft);
+  margin: 14px 0 8px;
+}
+.section .sub-label:first-child { margin-top: 0; }
+.camara-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 10.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 2px 8px;
+  border-radius: 999px;
+  margin-left: 8px;
+  vertical-align: middle;
+}
+.camara-tag.senado { color: var(--camara-hsn); background: var(--camara-hsn-bg); }
+.camara-tag.diputados { color: var(--camara-hcdn); background: var(--camara-hcdn-bg); }
+.section .meta-line {
+  font-size: 13px;
+  color: var(--ink-soft);
+  margin-bottom: 10px;
+}
+.tramite-comisiones {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.tramite-comision-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: 13.5px;
+  padding: 8px 10px;
+  border-radius: 8px;
+  background: var(--surface-alt);
+}
+.tramite-comision-row .nombre { font-weight: 600; }
+.tramite-comision-row .fechas { color: var(--ink-soft); white-space: nowrap; }
+
+footer {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 clamp(16px, 4vw, 40px) 40px;
+  color: var(--ink-soft);
+  font-size: 12px;
+}
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <div>
+      <p class="eyebrow">Senado de la Nación · Proyectos de ley</p>
+      <h1>Proyectos de ley pendientes destacados</h1>
+      <p class="meta" id="generado-al"></p>
+    </div>
+    <div class="stat">
+      <div class="n" id="stat-total">0</div>
+      <div class="l">proyectos</div>
+    </div>
+  </div>
+</header>
+
+<div class="controls" id="controls">
+  <div class="tabs" id="tabs" role="tablist" aria-label="Categoría"></div>
+  <div class="filter-row">
+    <div class="search-wrap">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+      <input type="search" id="search" placeholder="Buscar por título o expediente…" aria-label="Buscar" />
+    </div>
+    <div class="camara-toggle" id="camara-toggle" role="group" aria-label="Filtrar por cámara donde está el expediente">
+      <button class="camara-btn" type="button" data-camara="Senado" aria-pressed="false">Senado</button>
+      <button class="camara-btn" type="button" data-camara="Diputados" aria-pressed="false">Diputados</button>
+    </div>
+    <select id="autor-select" aria-label="Filtrar por autor">
+      <option value="">Todos los autores</option>
+    </select>
+    <button class="btn-clear" id="btn-clear-filters" type="button">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18M6 6l12 12"/></svg>
+      Limpiar filtros
+    </button>
+  </div>
+</div>
+
+<main>
+  <div id="view-list">
+    <p class="result-count" id="result-count"></p>
+    <div class="grid" id="grid"></div>
+    <div class="empty-state" id="empty-state" style="display:none;">
+      <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+      <p>No hay proyectos que coincidan con estos filtros.</p>
+    </div>
+    <div id="stats-panel" style="display:none;"></div>
+  </div>
+  <div id="view-detail" style="display:none;"></div>
+</main>
+
+<footer>
+  Fuente: planilla de proyectos de ley del Senado (TIPO = PL) y notas de seguimiento por expediente. No incluye proyectos ya sancionados como ley.
+</footer>
+
+<script id="proyectos-data" type="application/json">__DATA_JSON__</script>
+<script>
+(function () {
+  "use strict";
+  var DATA = JSON.parse(document.getElementById("proyectos-data").textContent);
+  var proyectos = DATA.proyectos;
+  var porExpediente = {};
+  proyectos.forEach(function (p) { porExpediente[p.expediente] = p; });
+
+  var CATEGORIES = [
+    { key: "todos", label: "Todos" },
+    { key: "en_comision", label: "En comisión" },
+    { key: "con_od", label: "Con OD" },
+    { key: "media_sancion", label: "Media sanción" },
+    { key: "stats", label: "📊 Estadísticas", noCount: true }
+  ];
+  var PILL_META = {
+    en_comision: { cls: "comision", label: "En comisión" },
+    con_od: { cls: "od", label: "Con OD" },
+    media_sancion: { cls: "sancion", label: "Media sanción" }
+  };
+  var CAMARA_META = {
+    "1/2 sanción HCDN": { cls: "hcdn", label: "1/2 sanción HCDN" },
+    "1/2 sanción HSN": { cls: "hsn", label: "1/2 sanción HSN" }
+  };
+
+  var state = { categoria: "todos", camara: "", autor: "", q: "" };
+
+  var elTabs = document.getElementById("tabs");
+  var elGrid = document.getElementById("grid");
+  var elEmpty = document.getElementById("empty-state");
+  var elResultCount = document.getElementById("result-count");
+  var elSearch = document.getElementById("search");
+  var elCamaraToggle = document.getElementById("camara-toggle");
+  var elAutorSelect = document.getElementById("autor-select");
+  var elBtnClearFilters = document.getElementById("btn-clear-filters");
+  var elStatTotal = document.getElementById("stat-total");
+  var elGeneradoAl = document.getElementById("generado-al");
+  var elStatsPanel = document.getElementById("stats-panel");
+  var elControls = document.getElementById("controls");
+  var elViewList = document.getElementById("view-list");
+  var elViewDetail = document.getElementById("view-detail");
+
+  elStatTotal.textContent = DATA.total;
+  if (DATA.generado_al) {
+    elGeneradoAl.textContent = "Datos al " + formatFecha(DATA.generado_al);
+  }
+
+  var autores = Array.from(new Set(proyectos.map(function (p) { return p.autor; }))).sort();
+  autores.forEach(function (a) {
+    var opt = document.createElement("option");
+    opt.value = a;
+    opt.textContent = a;
+    elAutorSelect.appendChild(opt);
+  });
+
+  function formatFecha(iso) {
+    var parts = iso.split("-");
+    if (parts.length !== 3) return iso;
+    var d = new Date(Date.UTC(+parts[0], +parts[1] - 1, +parts[2]));
+    var meses = ["enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre"];
+    return d.getUTCDate() + " de " + meses[d.getUTCMonth()] + " de " + d.getUTCFullYear();
+  }
+
+  function escapeHTML(s) {
+    return String(s).replace(/[&<>"']/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+    });
+  }
+
+  function counts() {
+    var c = { todos: proyectos.length, en_comision: 0, con_od: 0, media_sancion: 0 };
+    proyectos.forEach(function (p) { c[p.categoria]++; });
+    return c;
+  }
+
+  function renderTabs() {
+    var c = counts();
+    elTabs.innerHTML = "";
+    CATEGORIES.forEach(function (cat) {
+      var btn = document.createElement("button");
+      btn.className = "tab";
+      btn.setAttribute("role", "tab");
+      btn.setAttribute("aria-selected", state.categoria === cat.key ? "true" : "false");
+      btn.innerHTML = cat.label + (cat.noCount ? "" : ' <span class="count">' + c[cat.key] + "</span>");
+      btn.addEventListener("click", function () {
+        state.categoria = cat.key;
+        renderTabs();
+        renderListView();
+      });
+      elTabs.appendChild(btn);
+    });
+  }
+
+  function matches(p) {
+    if (state.categoria !== "todos" && state.categoria !== "stats" && p.categoria !== state.categoria) return false;
+    if (state.camara && p.camara_actual !== state.camara) return false;
+    if (state.autor && p.autor !== state.autor) return false;
+    if (state.q) {
+      var haystack = (p.nombre_corto + " " + p.titulo + " " + p.expediente).toLowerCase();
+      if (haystack.indexOf(state.q) === -1) return false;
+    }
+    return true;
+  }
+
+  function pillRowHTML(p) {
+    var pills = "";
+    // el pill de categoría "Media sanción" es redundante con el badge de cámara: se omite
+    if (p.categoria !== "media_sancion") {
+      var meta = PILL_META[p.categoria];
+      pills += '<span class="pill ' + meta.cls + '">' + meta.label + '</span>';
+    }
+    var camaraMeta = CAMARA_META[p.badge_camara];
+    if (camaraMeta) {
+      pills += '<span class="pill ' + camaraMeta.cls + '">' + camaraMeta.label + '</span>';
+    }
+    return pills;
+  }
+
+  function comisionActual(p) {
+    var cs = p.tramite.comisiones;
+    if (!cs || !cs.length) return null;
+    return cs[cs.length - 1].comision;
+  }
+
+  function cardHTML(p) {
+    var comision = comisionActual(p);
+    return (
+      '<button class="card" data-expediente="' + p.expediente + '">' +
+        '<div class="card-top">' +
+          '<span class="expediente">' + p.expediente + '</span>' +
+          '<div class="pill-row">' + pillRowHTML(p) + '</div>' +
+        '</div>' +
+        '<div class="titulo">' + escapeHTML(p.nombre_corto) + '</div>' +
+        '<div class="card-bottom">' +
+          '<span>' + (comision ? escapeHTML(titleCaseComision(comision)) : "En " + p.camara_actual) + '</span>' +
+          '<span>' + (p.tramite.ingreso ? "Ingresó " + p.tramite.ingreso : "") + '</span>' +
+        '</div>' +
+      '</button>'
+    );
+  }
+
+  function titleCaseComision(s) {
+    if (!s) return s;
+    if (s !== s.toUpperCase()) return s;
+    return s.charAt(0) + s.slice(1).toLowerCase();
+  }
+
+  var currentList = [];
+
+  function renderListView() {
+    var isStats = state.categoria === "stats";
+    document.querySelector(".filter-row").style.display = isStats ? "none" : "flex";
+    elResultCount.style.display = isStats ? "none" : "block";
+    elGrid.style.display = isStats ? "none" : "grid";
+    elStatsPanel.style.display = isStats ? "block" : "none";
+    if (isStats) {
+      elEmpty.style.display = "none";
+      renderStats();
+      return;
+    }
+    currentList = proyectos.filter(matches);
+    elResultCount.textContent = currentList.length + (currentList.length === 1 ? " proyecto encontrado" : " proyectos encontrados");
+    if (currentList.length === 0) {
+      elGrid.innerHTML = "";
+      elEmpty.style.display = "block";
+      return;
+    }
+    elEmpty.style.display = "none";
+    elGrid.innerHTML = currentList.map(cardHTML).join("");
+    Array.prototype.forEach.call(elGrid.querySelectorAll(".card"), function (card) {
+      card.addEventListener("click", function () {
+        location.hash = "#/" + card.getAttribute("data-expediente");
+      });
+    });
+  }
+
+  function renderStats() {
+    var c = counts();
+    var total = c.todos || 1;
+    var porCamara = { Senado: 0, Diputados: 0 };
+    proyectos.forEach(function (p) { porCamara[p.camara_actual] = (porCamara[p.camara_actual] || 0) + 1; });
+    var conNota = proyectos.filter(function (p) { return p.nota; }).length;
+
+    var cards = [
+      { value: total, label: "Total de proyectos pendientes", cls: "" },
+      { value: c.en_comision, label: "En comisión, sin dictamen", cls: "accent-comision" },
+      { value: c.con_od, label: "Con Orden del Día emitido", cls: "accent-od" },
+      { value: c.media_sancion, label: "Con media sanción", cls: "accent-sancion" },
+      { value: porCamara.Senado || 0, label: "Expediente actualmente en el Senado", cls: "accent-hsn" },
+      { value: porCamara.Diputados || 0, label: "Expediente actualmente en Diputados", cls: "accent-hcdn" },
+      { value: conNota, label: "Con resumen detallado cargado", cls: "" }
+    ];
+
+    elStatsPanel.innerHTML =
+      '<div class="stats-grid">' + cards.map(function (s) {
+        return (
+          '<div class="stat-card ' + s.cls + '">' +
+            '<div class="stat-value">' + s.value + '</div>' +
+            '<div class="stat-label">' + s.label + '</div>' +
+          '</div>'
+        );
+      }).join("") + '</div>';
+  }
+
+  // --- Vista de detalle ---
+  function bulletListHTML(items, emptyMsg) {
+    if (!items || !items.length) {
+      return '<p class="empty-note">' + emptyMsg + '</p>';
+    }
+    return '<ul>' + items.map(function (b) { return '<li>' + escapeHTML(b) + '</li>'; }).join("") + '</ul>';
+  }
+
+  function camaraTagHTML(camara) {
+    if (!camara) return "";
+    var cls = camara === "Diputados" ? "diputados" : "senado";
+    return '<span class="camara-tag ' + cls + '">Cámara de ' + escapeHTML(camara) + '</span>';
+  }
+
+  function tramiteComisionesHTML(p) {
+    var cs = p.tramite.comisiones;
+    if (!cs || !cs.length) {
+      return '<p class="empty-note">Sin giro a comisión registrado.</p>';
+    }
+    // la fecha de ingreso/dictamen suele ser la misma para todas las comisiones
+    // de un mismo giro (plenario): se muestra una sola vez en vez de repetirla.
+    var ingreso = cs.map(function (c) { return c.fecha_ingreso; }).filter(Boolean)[0];
+    var egreso = cs.map(function (c) { return c.fecha_egreso; }).filter(Boolean)[0];
+    var nombres = cs.map(function (c) { return titleCaseComision(c.comision); }).join(" · ");
+    var fechaLinea = ingreso ? ("Ingresó " + ingreso + (egreso ? " · dictamen " + egreso : " · en trámite")) : "";
+    return (
+      '<div class="tramite-comisiones">' +
+        '<div class="tramite-comision-row">' +
+          '<span class="nombre">' + escapeHTML(nombres) + '</span>' +
+          '<span class="fechas">' + fechaLinea + '</span>' +
+        '</div>' +
+      '</div>'
+    );
+  }
+
+  function renderDetail(expediente) {
+    var p = porExpediente[expediente];
+    if (!p) {
+      elViewDetail.innerHTML = '<p class="empty-note">No se encontró el expediente ' + escapeHTML(expediente) + '.</p>' +
+        '<button class="detail-back" id="detail-back-nf">← Volver al listado</button>';
+      document.getElementById("detail-back-nf").addEventListener("click", function () { location.hash = ""; });
+      return;
+    }
+    var nota = p.nota;
+    var t = p.tramite;
+
+    var html = "";
+    html += '<button class="detail-back" id="detail-back">';
+    html += '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg> Volver al listado';
+    html += '</button>';
+
+    html += '<div class="detail-head">';
+    html += '<div class="expediente">' + p.expediente + ' · ' + escapeHTML(p.camara_actual) + '</div>';
+    html += '<h1>' + escapeHTML(p.titulo || p.nombre_corto) + '</h1>';
+    html += '<div class="pill-row">' + pillRowHTML(p) + '</div>';
+    html += '<div class="detail-actions">';
+    if (p.url) {
+      html += '<a class="btn-primary" href="' + p.url + '" target="_blank" rel="noopener">Ver expediente en el Senado <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg></a>';
+    } else {
+      html += '<span class="empty-note">Link al expediente pendiente de carga.</span>';
+    }
+    html += '</div>';
+    html += '</div>';
+
+    // Resumen del mensaje del PEN
+    html += '<div class="section"><h2>📩 Resumen del mensaje del Poder Ejecutivo</h2>';
+    html += bulletListHTML(nota && nota.resumen_mensaje_pen, "Resumen detallado pendiente de carga.");
+    html += '</div>';
+
+    // Resumen del expediente
+    html += '<div class="section"><h2>📄 Resumen del expediente</h2>';
+    html += bulletListHTML(nota && nota.resumen_expediente, "Resumen detallado pendiente de carga.");
+    html += '</div>';
+
+    // Trámite en comisión
+    html += '<div class="section"><h2>🏛️ Trámite en comisión</h2>';
+    if (!p.sin_datos_de_planilla) {
+      html += '<p class="meta-line">' + camaraTagHTML("Senado") + ' según la planilla del Senado</p>';
+    }
+    html += tramiteComisionesHTML(p);
+    if (nota && nota.reunion_comision) {
+      var rc = nota.reunion_comision;
+      html += '<p class="sub-label">Reunión de comisión ' + camaraTagHTML(rc.camara) + '</p>';
+      html += '<p class="meta-line">' + escapeHTML(rc.fecha) + (rc.comision ? " · " + escapeHTML(titleCaseComision(rc.comision)) : "") + '</p>';
+      if (rc.resumen) html += '<p class="meta-line">' + escapeHTML(rc.resumen) + '</p>';
+      if (rc.posturas_principales && rc.posturas_principales.length) {
+        html += '<p class="sub-label">Posturas principales</p>';
+        html += bulletListHTML(rc.posturas_principales, "");
+      }
+    }
+    html += '</div>';
+
+    // Orden del Día
+    if (t.orden_del_dia || (nota && nota.orden_del_dia_detalle)) {
+      html += '<div class="section"><h2>📋 Orden del Día</h2>';
+      if (t.orden_del_dia) {
+        html += '<p class="meta-line">' + camaraTagHTML("Senado") + ' N° ' + t.orden_del_dia.numero + '/' + t.orden_del_dia.anio + '</p>';
+      }
+      if (nota && nota.orden_del_dia_detalle) {
+        var od = nota.orden_del_dia_detalle;
+        if (od.firmantes && od.firmantes.length) {
+          html += '<p class="sub-label">Firmantes ' + camaraTagHTML(od.camara) + '</p>';
+          html += bulletListHTML(od.firmantes, "");
+        }
+        if (od.diferencias_clave && od.diferencias_clave.length) {
+          html += '<p class="sub-label">Diferencias clave vs. proyecto original</p>';
+          html += bulletListHTML(od.diferencias_clave, "");
+        }
+      }
+      html += '</div>';
+    }
+
+    // Sanción / media sanción
+    if (t.sancion_fecha || (nota && nota.sancion_detalle)) {
+      var sd = nota && nota.sancion_detalle;
+      html += '<div class="section"><h2>🗳️ Sanción' + (sd ? ' ' + camaraTagHTML(sd.camara) : '') + '</h2>';
+      if (t.sancion_fecha) {
+        html += '<p class="meta-line">' + camaraTagHTML("Senado") + ' aprobó el ' + t.sancion_fecha + '</p>';
+      }
+      if (sd) {
+        if (sd.link_taquigrafica) {
+          html += '<p class="meta-line"><a href="' + escapeHTML(sd.link_taquigrafica) + '" target="_blank" rel="noopener">Ver versión taquigráfica →</a></p>';
+        }
+        if (sd.posturas_principales && sd.posturas_principales.length) {
+          html += '<p class="sub-label">Posturas principales y resultado' + (sd.camara ? ' en ' + escapeHTML(sd.camara) : '') + '</p>';
+          html += bulletListHTML(sd.posturas_principales, "");
+        }
+      }
+      html += '</div>';
+    }
+
+    elViewDetail.innerHTML = html;
+    document.getElementById("detail-back").addEventListener("click", function () { location.hash = ""; });
+  }
+
+  function route() {
+    var hash = location.hash;
+    var m = hash.match(/^#\/(.+)$/);
+    if (m) {
+      var expediente = decodeURIComponent(m[1]);
+      elControls.style.display = "none";
+      elViewList.style.display = "none";
+      elViewDetail.style.display = "block";
+      renderDetail(expediente);
+      window.scrollTo(0, 0);
+    } else {
+      elControls.style.display = "flex";
+      elControls.style.flexDirection = "column";
+      elViewList.style.display = "block";
+      elViewDetail.style.display = "none";
+      renderListView();
+    }
+  }
+
+  // --- Filtros ---
+  var searchTimer = null;
+  elSearch.addEventListener("input", function () {
+    clearTimeout(searchTimer);
+    searchTimer = setTimeout(function () {
+      state.q = elSearch.value.trim().toLowerCase();
+      renderListView();
+    }, 120);
+  });
+  function renderCamaraToggle() {
+    Array.prototype.forEach.call(elCamaraToggle.querySelectorAll(".camara-btn"), function (btn) {
+      btn.setAttribute("aria-pressed", btn.getAttribute("data-camara") === state.camara ? "true" : "false");
+    });
+  }
+  elCamaraToggle.addEventListener("click", function (e) {
+    var btn = e.target.closest(".camara-btn");
+    if (!btn) return;
+    var val = btn.getAttribute("data-camara");
+    state.camara = state.camara === val ? "" : val;
+    renderCamaraToggle();
+    renderListView();
+  });
+  elAutorSelect.addEventListener("change", function () {
+    state.autor = elAutorSelect.value;
+    renderListView();
+  });
+  elBtnClearFilters.addEventListener("click", function () {
+    state.camara = "";
+    state.autor = "";
+    state.q = "";
+    elSearch.value = "";
+    elAutorSelect.value = "";
+    renderCamaraToggle();
+    renderListView();
+  });
+
+  window.addEventListener("hashchange", route);
+  renderTabs();
+  renderCamaraToggle();
+  route();
+})();
+</script>
+</body>
+</html>
