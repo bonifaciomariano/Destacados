@@ -54,32 +54,9 @@
   --camara-hsn-bg: #dff3f6;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --ink: #e8edf2;
-    --ink-soft: #a9b3bc;
-    --line: #33404b;
-    --line-soft: #29343e;
-    --surface: #121a22;
-    --surface-alt: #17212b;
-    --surface-raised: #1b2530;
-    --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 12px 32px -12px rgba(0, 0, 0, 0.55);
-    --accent-pale: #14344a;
-    --accent-light: #3d87b8;
-
-    --state-comision: #9aa7b3;
-    --state-comision-bg: #232c34;
-    --state-od: #b39ce0;
-    --state-od-bg: #2a2140;
-    --state-sancion: #5fcd93;
-    --state-sancion-bg: #123423;
-
-    --camara-hcdn: #e0ab52;
-    --camara-hcdn-bg: #3a2f14;
-    --camara-hsn: #5fd0e3;
-    --camara-hsn-bg: #0f2e34;
-  }
-}
+/* El tema oscuro es siempre una elección explícita del visitante (ver
+   theme-toggle más abajo) — nunca se activa solo porque el sistema
+   operativo esté en modo oscuro. */
 :root[data-theme="dark"] {
   --ink: #e8edf2;
   --ink-soft: #a9b3bc;
@@ -152,6 +129,29 @@ button, select, input { font-family: inherit; }
   opacity: 0.85;
   margin-top: 6px;
 }
+.topbar-side {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.theme-toggle {
+  appearance: none;
+  border: none;
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  flex: none;
+}
+.theme-toggle:hover { background: rgba(255, 255, 255, 0.28); }
+.theme-toggle .icon-moon { display: none; }
+:root[data-theme="dark"] .theme-toggle .icon-sun { display: none; }
+:root[data-theme="dark"] .theme-toggle .icon-moon { display: block; }
 .topbar .stat {
   text-align: right;
 }
@@ -728,9 +728,15 @@ footer {
       <h1>Proyectos de ley pendientes destacados</h1>
       <p class="meta" id="generado-al"></p>
     </div>
-    <div class="stat">
-      <div class="n" id="stat-total">0</div>
-      <div class="l">proyectos</div>
+    <div class="topbar-side">
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Cambiar a modo oscuro">
+        <svg class="icon-sun" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+        <svg class="icon-moon" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+      <div class="stat">
+        <div class="n" id="stat-total">0</div>
+        <div class="l">proyectos</div>
+      </div>
     </div>
   </div>
 </header>
@@ -796,6 +802,25 @@ footer {
 <script>
 (function () {
   "use strict";
+
+  // --- Tema claro/oscuro: por defecto siempre claro, el visitante elige ---
+  var THEME_KEY = "proyectos-legislativos-theme";
+  var elThemeToggle = document.getElementById("theme-toggle");
+  var currentTheme = "light";
+  try {
+    currentTheme = localStorage.getItem(THEME_KEY) || "light";
+  } catch (e) { /* localStorage no disponible (modo privado, etc.) */ }
+  function applyTheme(theme) {
+    document.documentElement.setAttribute("data-theme", theme);
+    elThemeToggle.setAttribute("aria-label", theme === "dark" ? "Cambiar a modo claro" : "Cambiar a modo oscuro");
+  }
+  applyTheme(currentTheme);
+  elThemeToggle.addEventListener("click", function () {
+    currentTheme = currentTheme === "dark" ? "light" : "dark";
+    applyTheme(currentTheme);
+    try { localStorage.setItem(THEME_KEY, currentTheme); } catch (e) {}
+  });
+
   var DATA = JSON.parse(document.getElementById("proyectos-data").textContent);
   var proyectos = DATA.proyectos;
   var porExpediente = {};
@@ -1123,7 +1148,7 @@ footer {
   function camaraTagHTML(camara) {
     if (!camara) return "";
     var cls = camara === "Diputados" ? "diputados" : "senado";
-    return '<span class="camara-tag ' + cls + '">Cámara de ' + escapeHTML(camara) + '</span>';
+    return '<span class="camara-tag ' + cls + '">' + escapeHTML(camara) + '</span>';
   }
 
   function tramiteComisionesHTML(p) {
@@ -1188,9 +1213,6 @@ footer {
 
     // Trámite en comisión
     html += '<div class="section"><h2>🏛️ Trámite en comisión</h2>';
-    if (!p.sin_datos_de_planilla) {
-      html += '<p class="meta-line">' + camaraTagHTML("Senado") + ' según la planilla del Senado</p>';
-    }
     html += tramiteComisionesHTML(p);
     if (nota && nota.reunion_comision) {
       var rc = nota.reunion_comision;
